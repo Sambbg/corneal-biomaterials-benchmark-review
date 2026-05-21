@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.pdf
+*.docx
+*.xlsx
+*.ris
+*.nbib
+*.enw
+*.tmp
+~$*
+.vscode/
+.idea/
