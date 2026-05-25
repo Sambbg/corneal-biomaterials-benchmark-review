@@ -21,21 +21,36 @@ def split_pubmed_records(text):
     chunks = re.split(r"\n(?=PMID- )", text.strip())
     return [c.strip() for c in chunks if c.strip()]
 
-def get_field(record, tag):
-    pattern = rf"^{re.escape(tag)}- (.*?)(?=\n[A-Z0-9]{{2,4}}\s*- |\Z)"
-    m = re.search(pattern, record, flags=re.M | re.S)
-    if not m:
-        return ""
-    value = m.group(1)
-    value = re.sub(r"\n\s{6}", " ", value)
-    return " ".join(value.split())
+def parse_pubmed_record(record):
+    """
+    Parses PubMed text format.
 
-def get_all_fields(record, tag):
-    values = []
+    PubMed lines look like:
+    PMID- 123456
+    TI  - Article title
+          continued title line
+    JT  - Journal Title
+
+    Continuation lines begin with spaces.
+    """
+    fields = defaultdict(list)
+    current_tag = None
+
     for line in record.splitlines():
-        if line.startswith(f"{tag}- "):
-            values.append(line.split("- ", 1)[1].strip())
-    return values
+        m = re.match(r"^([A-Z0-9]{2,4})\s*-\s*(.*)$", line)
+        if m:
+            current_tag = m.group(1)
+            fields[current_tag].append(m.group(2).strip())
+        elif current_tag and line.startswith(" "):
+            continuation = line.strip()
+            if continuation and fields[current_tag]:
+                fields[current_tag][-1] += " " + continuation
+
+    cleaned = {}
+    for tag, values in fields.items():
+        cleaned[tag] = [" ".join(v.split()) for v in values]
+
+    return cleaned
 
 records_by_pmid = {}
 sources_by_pmid = defaultdict(list)
@@ -50,22 +65,25 @@ for source, path in files.items():
     raw_counts[source] = len(records)
 
     for rec in records:
-        pmid = get_field(rec, "PMID")
+        fields = parse_pubmed_record(rec)
+
+        pmid = fields.get("PMID", [""])[0]
         if not pmid:
             continue
 
         sources_by_pmid[pmid].append(source)
 
         if pmid not in records_by_pmid:
-            title = get_field(rec, "TI")
-            journal = get_field(rec, "JT")
-            year = get_field(rec, "DP")[:4]
+            title = fields.get("TI", [""])[0]
+            journal = fields.get("JT", [""])[0]
+            dp = fields.get("DP", [""])[0]
+            year_match = re.search(r"\b(19|20)\d{2}\b", dp)
+            year = year_match.group(0) if year_match else ""
 
-            doi_values = get_all_fields(rec, "AID")
             doi = ""
-            for v in doi_values:
-                if "[doi]" in v.lower():
-                    doi = v.replace("[doi]", "").strip()
+            for aid in fields.get("AID", []):
+                if "[doi]" in aid.lower():
+                    doi = aid.replace("[doi]", "").strip()
                     break
 
             records_by_pmid[pmid] = {
@@ -113,6 +131,15 @@ with report_path.open("w", encoding="utf-8") as f:
     f.write(f"\n## Unique PMID Records\n\n{len(unique_records)}\n")
     f.write(f"\n## Duplicate PMID Records Across Searches\n\n{len(duplicate_pmids)}\n")
 
+    missing_title = sum(1 for r in unique_records if not r["title"])
+    missing_year = sum(1 for r in unique_records if not r["year"])
+    missing_journal = sum(1 for r in unique_records if not r["journal"])
+
+    f.write("\n## Metadata Completeness Check\n\n")
+    f.write(f"- Records missing title: {missing_title}\n")
+    f.write(f"- Records missing year: {missing_year}\n")
+    f.write(f"- Records missing journal: {missing_journal}\n")
+
     f.write("\n## Duplicate PMID List\n\n")
     if duplicate_pmids:
         f.write("| PMID | Sources |\n")
@@ -131,3 +158,8 @@ print(f"Unique records: {len(unique_records)}")
 print(f"Duplicate PMIDs across searches: {len(duplicate_pmids)}")
 print(f"CSV written to: {csv_path}")
 print(f"Report written to: {report_path}")
+
+print("\nMetadata check:")
+print(f"Missing titles: {sum(1 for r in unique_records if not r['title'])}")
+print(f"Missing years: {sum(1 for r in unique_records if not r['year'])}")
+print(f"Missing journals: {sum(1 for r in unique_records if not r['journal'])}")

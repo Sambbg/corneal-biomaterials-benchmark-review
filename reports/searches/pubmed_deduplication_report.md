@@ -19,6 +19,12 @@
 
 206
 
+## Metadata Completeness Check
+
+- Records missing title: 0
+- Records missing year: 0
+- Records missing journal: 10
+
 ## Duplicate PMID List
 
 | PMID | Sources |
