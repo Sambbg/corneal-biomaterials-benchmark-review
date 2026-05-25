@@ -22,44 +22,26 @@ def split_pubmed_records(text):
     return [c.strip() for c in chunks if c.strip()]
 
 def parse_pubmed_record(record):
-    """
-    Parses PubMed text format.
-
-    PubMed lines look like:
-    PMID- 123456
-    TI  - Article title
-          continued title line
-    JT  - Journal Title
-
-    Continuation lines begin with spaces.
-    """
     fields = defaultdict(list)
     current_tag = None
 
     for line in record.splitlines():
         m = re.match(r"^([A-Z0-9]{2,4})\s*-\s*(.*)$", line)
         if m:
-            current_tag = m.group(1)
+            current_tag = m.group(1).strip()
             fields[current_tag].append(m.group(2).strip())
         elif current_tag and line.startswith(" "):
             continuation = line.strip()
             if continuation and fields[current_tag]:
                 fields[current_tag][-1] += " " + continuation
 
-    cleaned = {}
-    for tag, values in fields.items():
-        cleaned[tag] = [" ".join(v.split()) for v in values]
-
-    return cleaned
+    return {tag: [" ".join(v.split()) for v in values] for tag, values in fields.items()}
 
 records_by_pmid = {}
 sources_by_pmid = defaultdict(list)
 raw_counts = {}
 
 for source, path in files.items():
-    if not path.exists():
-        raise FileNotFoundError(f"Missing file: {path}")
-
     text = path.read_text(encoding="utf-8", errors="replace")
     records = split_pubmed_records(text)
     raw_counts[source] = len(records)
@@ -75,8 +57,10 @@ for source, path in files.items():
 
         if pmid not in records_by_pmid:
             title = fields.get("TI", [""])[0]
+            abstract = " ".join(fields.get("AB", []))
             journal = fields.get("JT", [""])[0]
             dp = fields.get("DP", [""])[0]
+
             year_match = re.search(r"\b(19|20)\d{2}\b", dp)
             year = year_match.group(0) if year_match else ""
 
@@ -89,6 +73,7 @@ for source, path in files.items():
             records_by_pmid[pmid] = {
                 "pmid": pmid,
                 "title": title,
+                "abstract": abstract,
                 "year": year,
                 "journal": journal,
                 "doi": doi,
@@ -107,7 +92,7 @@ unique_records = sorted(
 
 csv_path = OUT_DIR / "pubmed_unique_records.csv"
 with csv_path.open("w", newline="", encoding="utf-8") as f:
-    fieldnames = ["pmid", "title", "year", "journal", "doi", "sources", "source_count"]
+    fieldnames = ["pmid", "title", "abstract", "year", "journal", "doi", "sources", "source_count"]
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(unique_records)
@@ -117,11 +102,16 @@ duplicate_pmids = {
     if len(set(srcs)) > 1
 }
 
+missing_title = sum(1 for r in unique_records if not r["title"])
+missing_abstract = sum(1 for r in unique_records if not r["abstract"])
+missing_year = sum(1 for r in unique_records if not r["year"])
+missing_journal = sum(1 for r in unique_records if not r["journal"])
+
 report_path = REPORT_DIR / "pubmed_deduplication_report.md"
 with report_path.open("w", encoding="utf-8") as f:
     f.write("# PubMed Deduplication Report\n\n")
-
     f.write("## Raw Record Counts\n\n")
+
     total_raw = 0
     for source, count in raw_counts.items():
         total_raw += count
@@ -131,35 +121,17 @@ with report_path.open("w", encoding="utf-8") as f:
     f.write(f"\n## Unique PMID Records\n\n{len(unique_records)}\n")
     f.write(f"\n## Duplicate PMID Records Across Searches\n\n{len(duplicate_pmids)}\n")
 
-    missing_title = sum(1 for r in unique_records if not r["title"])
-    missing_year = sum(1 for r in unique_records if not r["year"])
-    missing_journal = sum(1 for r in unique_records if not r["journal"])
-
     f.write("\n## Metadata Completeness Check\n\n")
     f.write(f"- Records missing title: {missing_title}\n")
+    f.write(f"- Records missing abstract: {missing_abstract}\n")
     f.write(f"- Records missing year: {missing_year}\n")
     f.write(f"- Records missing journal: {missing_journal}\n")
-
-    f.write("\n## Duplicate PMID List\n\n")
-    if duplicate_pmids:
-        f.write("| PMID | Sources |\n")
-        f.write("|---|---|\n")
-        for pmid, srcs in sorted(
-            duplicate_pmids.items(),
-            key=lambda x: int(x[0]) if x[0].isdigit() else x[0]
-        ):
-            f.write(f"| {pmid} | {'; '.join(sorted(set(srcs)))} |\n")
-    else:
-        f.write("No duplicates detected across searches.\n")
 
 print("Deduplication complete.")
 print(f"Raw total: {sum(raw_counts.values())}")
 print(f"Unique records: {len(unique_records)}")
 print(f"Duplicate PMIDs across searches: {len(duplicate_pmids)}")
-print(f"CSV written to: {csv_path}")
-print(f"Report written to: {report_path}")
-
-print("\nMetadata check:")
-print(f"Missing titles: {sum(1 for r in unique_records if not r['title'])}")
-print(f"Missing years: {sum(1 for r in unique_records if not r['year'])}")
-print(f"Missing journals: {sum(1 for r in unique_records if not r['journal'])}")
+print(f"Missing titles: {missing_title}")
+print(f"Missing abstracts: {missing_abstract}")
+print(f"Missing years: {missing_year}")
+print(f"Missing journals: {missing_journal}")
