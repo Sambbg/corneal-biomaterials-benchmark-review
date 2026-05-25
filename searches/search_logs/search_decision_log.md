@@ -104,3 +104,34 @@ A3, B3 and D3 are now suitable for pilot screening. C3 remains too broad because
 
 ### Next Action
 Create a stricter endothelial search version C4.
+
+### Date
+2026-05-25
+
+### Database
+PubMed
+
+### Search Version
+pubmed_endothelium_search_C4
+
+### Result Count
+417
+
+### Decision
+Accepted for pilot screening.
+
+### Reason
+C4 reduced the endothelial search from 841 to 417 results and better prioritised engineered substitutes, iPSC-derived endothelial substitutes, endothelial graft manufacturing, phenotype markers, and translational cell-based evidence.
+
+### Final PubMed Pilot Set
+Accepted PubMed pilot searches:
+
+- A3 epithelium/limbus: 275 results
+- B3 stroma: 444 results
+- C4 endothelium: 417 results
+- D3 full-thickness/multilayer: 182 results
+
+Total before deduplication: 1318 records
+
+### Next Action
+Create screening templates and begin title/abstract pilot screening using a small sample from each accepted search.
