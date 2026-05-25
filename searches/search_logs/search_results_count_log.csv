@@ -1,2 +1,6 @@
 date,database,search_version,search_name,result_count,notes
 2026-05-25,PubMed,pubmed_pilot_search_v0.1,broad core corneal tissue engineering search,1822,"Too broad; first results include reviews/general ophthalmology/regenerative therapy papers; needs narrower biomaterials-focused and layer-specific searches."
+2026-05-25,PubMed,pubmed_pilot_search_v0.2,Search A epithelium/limbus,1481,"Still too broad; retrieves relevant epithelial/limbal papers but includes many broad regenerative/review papers."
+2026-05-25,PubMed,pubmed_pilot_search_v0.2,Search B stroma,502,"More manageable; relevant to stromal biomaterials but still includes broad review papers."
+2026-05-25,PubMed,pubmed_pilot_search_v0.2,Search C endothelium,1090,"Too broad; endothelial disease and clinical ophthalmology noise remain high."
+2026-05-25,PubMed,pubmed_pilot_search_v0.2,Search D full-thickness/multilayer,391,"Most manageable; relevant to full-thickness, collagen, multilayer and construct work but still needs screening."

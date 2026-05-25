@@ -49,3 +49,34 @@ The next search will narrow the strategy by:
 
 ### Next Action
 Create PubMed pilot search v0.2 with layer-specific search strings for epithelium/limbus, stroma, endothelium, and full-thickness/multilayer constructs.
+
+### Date
+2026-05-25
+
+### Database
+PubMed
+
+### Search Version
+pubmed_pilot_search_v0.2
+
+### Result Counts
+Search A epithelium/limbus: 1481
+Search B stroma: 502
+Search C endothelium: 1090
+Search D full-thickness/multilayer: 391
+
+### Decision
+Revised.
+
+### Reason
+Layer-specific searching improved structure but did not sufficiently reduce noise. Search A and Search C remain too broad. Search B and Search D are more manageable but still retrieve broad reviews near the top. The search strategy needs a sharper primary-evidence and biomaterials-performance focus.
+
+### Changes Needed
+Create PubMed pilot search v0.3 using:
+- stronger biomaterials and fabrication constraints;
+- title/abstract terms for measurable performance;
+- optional exclusion of review publication types during primary-study retrieval;
+- separate supplementary search for landmark reviews and background sources.
+
+### Next Action
+Create PubMed pilot search v0.3.
