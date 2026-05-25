@@ -80,3 +80,27 @@ Create PubMed pilot search v0.3 using:
 
 ### Next Action
 Create PubMed pilot search v0.3.
+
+### Date
+2026-05-25
+
+### Database
+PubMed
+
+### Search Version
+pubmed_pilot_search_v0.3
+
+### Result Counts
+A3 epithelium/limbus: 275
+B3 stroma: 444
+C3 endothelium: 841
+D3 full-thickness/multilayer: 182
+
+### Decision
+Partially accepted.
+
+### Reason
+A3, B3 and D3 are now suitable for pilot screening. C3 remains too broad because it retrieves general endothelial transplantation and ophthalmology papers rather than mainly engineered endothelial substitutes, carriers, membranes, hydrogels or cell-sheet approaches.
+
+### Next Action
+Create a stricter endothelial search version C4.

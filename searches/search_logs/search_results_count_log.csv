@@ -4,3 +4,7 @@ date,database,search_version,search_name,result_count,notes
 2026-05-25,PubMed,pubmed_pilot_search_v0.2,Search B stroma,502,"More manageable; relevant to stromal biomaterials but still includes broad review papers."
 2026-05-25,PubMed,pubmed_pilot_search_v0.2,Search C endothelium,1090,"Too broad; endothelial disease and clinical ophthalmology noise remain high."
 2026-05-25,PubMed,pubmed_pilot_search_v0.2,Search D full-thickness/multilayer,391,"Most manageable; relevant to full-thickness, collagen, multilayer and construct work but still needs screening."
+2026-05-25,PubMed,pubmed_pilot_search_v0.3,Search A3 epithelium/limbus primary evidence focus,275,"Acceptable range; retrieves relevant clinical and biomaterials evidence including iPSC-derived corneal epithelium and hydrogel regeneration papers."
+2026-05-25,PubMed,pubmed_pilot_search_v0.3,Search B3 stroma biomaterial performance focus,444,"Acceptable but near upper limit; contains relevant hydrogel, stromal regeneration, transparency and mechanics papers."
+2026-05-25,PubMed,pubmed_pilot_search_v0.3,Search C3 endothelium engineered substitute/carrier focus,841,"Still too broad; retrieves too much general endothelial transplantation and ophthalmology material."
+2026-05-25,PubMed,pubmed_pilot_search_v0.3,Search D3 full-thickness/multilayer primary evidence focus,182,"Acceptable range; retrieves bioactive hydrogel, 3D printing, artificial cornea and construct-related papers."
