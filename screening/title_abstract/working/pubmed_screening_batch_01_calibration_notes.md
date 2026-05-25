@@ -1,112 +1,141 @@
 # PubMed Batch 01 Calibration Notes
 
-## Purpose
+## Calibration Summary
 
-This file contains the first 10 records from PubMed Batch 01. It is used to calibrate inclusion/exclusion decisions before screening the full batch.
+- Total records: 10
+- Include: 5
+- Exclude: 3
+- Uncertain: 2
 
-## Calibration Rule
+## Interpretation
 
-Do not proceed to the full 100-record batch until these 10 records have been reviewed and the screening threshold is consistent.
+The calibration threshold is intentionally conservative. Records are included when they clearly involve corneal tissue engineering, biomaterials, scaffolds, cell sheets, regenerative constructs, or direct corneal regeneration models. Records are marked uncertain when they may support benchmarking or biological context but do not clearly involve a tissue-engineered material or construct.
 
-## Records
+## Record-Level Decisions
 
 ### PUBMED_0001 / PMID 27860426
 
 **Title:** Human corneal fibroblast migration and extracellular matrix synthesis during stromal repair: Role played by platelet-derived growth factor-BB, basic fibroblast growth factor, and transforming growth factor-β1.
 
-**Sources:** B3_stroma
+**Decision:** Uncertain
 
-**Decision:** Pending
+**Layer:** stroma
 
-**Rationale:** Pending
+**Priority:** Low
+
+**Rationale:** Human corneal fibroblast wound-healing/ECM biology model. Relevant to stromal repair biology and transparency/fibrosis background, but no clear biomaterial/scaffold/cell-construct intervention from title/abstract. Manual audit needed.
 
 ### PUBMED_0002 / PMID 27863068
 
 **Title:** Scaffold-free tissue engineering of functional corneal stromal tissue.
 
-**Sources:** B3_stroma
+**Decision:** Include
 
-**Decision:** Pending
+**Layer:** stroma
 
-**Rationale:** Pending
+**Priority:** High
+
+**Rationale:** Direct corneal stromal tissue engineering paper. Scaffold-free stromal construct using corneal stromal stem cells; strong candidate for extraction.
 
 ### PUBMED_0003 / PMID 28485528
 
 **Title:** Bioengineered keratocyte spheroids fabricated on chitosan coatings enhance tissue repair in a rabbit corneal stromal defect model.
 
-**Sources:** B3_stroma
+**Decision:** Include
 
-**Decision:** Pending
+**Layer:** stroma
 
-**Rationale:** Pending
+**Priority:** High
+
+**Rationale:** Direct stromal tissue engineering/regeneration study using chitosan-supported keratocyte spheroids in an animal stromal defect model.
 
 ### PUBMED_0004 / PMID 28600807
 
 **Title:** Multi-layered silk film coculture system for human corneal epithelial and stromal stem cells.
 
-**Sources:** A3_epithelium_limbus
+**Decision:** Include
 
-**Decision:** Pending
+**Layer:** multiple_layers
 
-**Rationale:** Pending
+**Priority:** High
+
+**Rationale:** Multi-layered silk film coculture system involving corneal epithelial and stromal stem cells. Relevant to layered corneal tissue engineering and scaffold design.
 
 ### PUBMED_0005 / PMID 28613758
 
 **Title:** Neurotrophic Keratitis.
 
-**Sources:** A3_epithelium_limbus;B3_stroma
+**Decision:** Exclude
 
-**Decision:** Pending
+**Layer:** unclear
 
-**Rationale:** Pending
+**Priority:** 
+
+**Exclusion reason:** Book chapter/background clinical overview
+
+**Rationale:** Neurotrophic keratitis appears to be clinical/background overview rather than biomaterial, scaffold, cell-engineering, or regenerative construct evidence.
 
 ### PUBMED_0006 / PMID 28780705
 
 **Title:** A viscoelastic anisotropic hyperelastic constitutive model of the human cornea.
 
-**Sources:** B3_stroma
+**Decision:** Uncertain
 
-**Decision:** Pending
+**Layer:** unclear
 
-**Rationale:** Pending
+**Priority:** Low
+
+**Rationale:** Biomechanical constitutive model of human cornea. Potentially useful for mechanical benchmarking background, but not clearly a corneal tissue engineering biomaterial/scaffold study.
 
 ### PUBMED_0007 / PMID 29023312
 
 **Title:** Prediction of Descemet Membrane Perforation During Deep Anterior Lamellar Keratoplasty in Patients With Keratoconus With Stromal Scar.
 
-**Sources:** C4_endothelium
+**Decision:** Exclude
 
-**Decision:** Pending
+**Layer:** stroma
 
-**Rationale:** Pending
+**Priority:** 
+
+**Exclusion reason:** General ophthalmology/no engineering content
+
+**Rationale:** Clinical/surgical prediction paper for DALK perforation risk in keratoconus. No clear biomaterial, scaffold, regenerative construct, or tissue engineering content.
 
 ### PUBMED_0008 / PMID 29024376
 
 **Title:** Evaluation of collagen foam, poly(l-lactic acid) nanofiber mesh, and decellularized matrices for corneal regeneration.
 
-**Sources:** B3_stroma;D3_full_thickness_multilayer
+**Decision:** Include
 
-**Decision:** Pending
+**Layer:** stroma
 
-**Rationale:** Pending
+**Priority:** High
+
+**Rationale:** Direct comparison of collagen foam, PLLA nanofiber mesh, and decellularized matrices for corneal regeneration. Excellent benchmarking candidate.
 
 ### PUBMED_0009 / PMID 29040116
 
 **Title:** Air Versus Sulfur Hexafluoride Gas Tamponade in Descemet Membrane Endothelial Keratoplasty: A Fellow Eye Comparison.
 
-**Sources:** C4_endothelium
+**Decision:** Exclude
 
-**Decision:** Pending
+**Layer:** endothelium
 
-**Rationale:** Pending
+**Priority:** 
+
+**Exclusion reason:** General ophthalmology/no engineering content
+
+**Rationale:** Clinical DMEK tamponade comparison. Surgical management topic, not biomaterial/scaffold/cell-engineering evidence for this review.
 
 ### PUBMED_0010 / PMID 29040119
 
 **Title:** Prospective Clinical Trial of Corneal Reconstruction With Biomaterial-Free Cultured Oral Mucosal Epithelial Cell Sheets.
 
-**Sources:** A3_epithelium_limbus
+**Decision:** Include
 
-**Decision:** Pending
+**Layer:** epithelium_limbus
 
-**Rationale:** Pending
+**Priority:** High
+
+**Rationale:** Clinical corneal reconstruction using cultured oral mucosal epithelial cell sheets. Relevant cell-sheet engineering construct even though biomaterial-free.
 
