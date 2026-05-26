@@ -1,0 +1,243 @@
+# Strict PubMed Retrieval Shortlist Report
+
+## Purpose
+
+This report creates a stricter full-text retrieval shortlist from the balanced final PubMed core. The earlier retrieval-priority script was too permissive and placed too many records into Priority 1.
+
+## Counts
+
+- Balanced final PubMed core records checked: 246
+- Strict Priority 1 retrieval shortlist: 204
+- Records to retrieve later/background: 42
+
+## Strict Retrieval Group Counts
+
+- Priority 1 - strict retrieval shortlist: 204
+- Priority 2 - retrieve after shortlist: 33
+- Priority 3 - retrieve later/background: 9
+
+## Strict Priority 1 Shortlist by Layer
+
+- multiple_layers: 87
+- epithelium_limbus: 46
+- stroma: 41
+- endothelium: 30
+
+## Full Balanced Core by Layer
+
+- multiple_layers: 104
+- stroma: 56
+- epithelium_limbus: 53
+- endothelium: 33
+
+## Strict Priority 1 Records
+
+- PUBMED_0032 / PMID 29413615 / score 20 / endothelium: Functionalized silk fibroin film scaffold using β-Carotene for cornea endothelial cell regeneration.
+- PUBMED_0320 / PMID 32781567 / score 20 / epithelium_limbus: Poly(ε-caprolactone) Titanium Dioxide and Cefuroxime Antimicrobial Scaffolds for Cultivation of Human Limbal Stem Cells.
+- PUBMED_0392 / PMID 33586332 / score 20 / epithelium_limbus: Limbal Stem Cells on Bacterial Nanocellulose Carriers for Ocular Surface Regeneration.
+- PUBMED_0049 / PMID 29637812 / score 19 / multiple_layers: Preserving Basement Membranes during Detachment of Cultivated Oral Mucosal Epithelial Cell Sheets for the Treatment of Total Bilateral Limbal Stem Cell Deficiency.
+- PUBMED_0344 / PMID 33028837 / score 19 / multiple_layers: In situ-forming collagen hydrogel crosslinked via multi-functional PEG as a matrix therapy for corneal defects.
+- PUBMED_0387 / PMID 33542377 / score 19 / multiple_layers: A decellularized human corneal scaffold for anterior corneal surface reconstruction.
+- PUBMED_0151 / PMID 30989737 / score 19 / stroma: Construction of a high cell density human corneal endothelial equivalent and its transplantation in primate models.
+- PUBMED_0626 / PMID 36729619 / score 19 / stroma: Intracorneal Implantation of 3D Bioprinted Scaffolds Containing Mesenchymal Stromal Cells Using Femtosecond-Laser-Assisted Intrastromal Keratoplasty.
+- PUBMED_0075 / PMID 29998891 / score 18 / endothelium: Constructing a Novel Three-Dimensional Biomimetic Corneal Endothelium Graft by Culturing Corneal Endothelium Cells on Compressed Collagen Gels.
+- PUBMED_0157 / PMID 31129253 / score 18 / endothelium: Investigating the effect of chitosan/ polycaprolactone blends in differentiation of corneal endothelial cells and extracellular matrix compositions.
+- PUBMED_0304 / PMID 32622067 / score 18 / endothelium: Evaluation of reconstructed human corneal endothelium sheets made with porcine Descemet's membrane in vitro and in vivo.
+- PUBMED_0379 / PMID 33448808 / score 18 / endothelium: Ultrathin, Strong, and Cell-Adhesive Agarose-Based Membranes Engineered as Substrates for Corneal Endothelial Cells.
+- PUBMED_0588 / PMID 36080636 / score 18 / endothelium: Customizable Collagen Vitrigel Membranes and Preliminary Results in Corneal Engineering.
+- PUBMED_0761 / PMID 38486306 / score 18 / endothelium: Bioprinting of human pluripotent stem cell derived corneal endothelial cells with hydrazone crosslinked hyaluronic acid bioink.
+- PUBMED_0202 / PMID 31545477 / score 18 / epithelium_limbus: Culture and characterization of human dental pulp‑derived stem cells as limbal stem cells for corneal damage repair.
+- PUBMED_0832 / PMID 39425087 / score 18 / epithelium_limbus: Comparative evaluation of autologous tissue-engineered ocular and oral mucosal tissue grafts- a prospective randomized controlled trial.
+- PUBMED_1016 / PMID 41379646 / score 18 / epithelium_limbus: Descemet Membrane Versus Amniotic Membrane for Limbal Stem Cell Therapy.
+- PUBMED_0021 / PMID 29281419 / score 17 / endothelium: Electro-spun Membranes as Scaffolds for Human Corneal Endothelial Cells.
+- PUBMED_0382 / PMID 33463278 / score 17 / endothelium: Fish-Scale Collagen Membrane Seeded with Corneal Endothelial Cells as Alternative Graft for Endothelial Keratoplasty Transplantation.
+- PUBMED_0421 / PMID 33939123 / score 17 / endothelium: Potential of a novel scaffold composed of human platelet lysate and fibrin for human corneal endothelial cells.
+- PUBMED_0537 / PMID 35358736 / score 17 / endothelium: Construction of tissue-engineered human corneal endothelium for corneal endothelial regeneration using a crosslinked amniotic membrane scaffold.
+- PUBMED_0841 / PMID 39551331 / score 17 / endothelium: Repair effects of thermosensitive hydrogels combined with iPSC-derived corneal endothelial cells on rabbit corneal endothelial dysfunction.
+- PUBMED_0925 / PMID 40366209 / score 17 / endothelium: Addition of Microscale Topographies to Silk Fibroin Film Modulates Corneal Endothelial Cell Behavior.
+- PUBMED_0940 / PMID 40536661 / score 17 / endothelium: Corneal Endothelium Regeneration with Decellularized Porcine Corneal Extracellular Matrix Scaffolds.
+- PUBMED_0950 / PMID 40665979 / score 17 / endothelium: Research on the construction of corneal endothelium transplantation with acellular amniotic membrane as a scaffold.
+- PUBMED_0010 / PMID 29040119 / score 17 / epithelium_limbus: Prospective Clinical Trial of Corneal Reconstruction With Biomaterial-Free Cultured Oral Mucosal Epithelial Cell Sheets.
+- PUBMED_0056 / PMID 29691018 / score 17 / epithelium_limbus: Carboxymethyl chitosan/gelatin/hyaluronic acid blended-membranes as epithelia transplanting scaffold for corneal wound healing.
+- PUBMED_0099 / PMID 30279555 / score 17 / epithelium_limbus: Comparative study of substrate free and amniotic membrane scaffolds for cultivation of limbal epithelial sheet.
+- PUBMED_0104 / PMID 30323996 / score 17 / epithelium_limbus: Universal Corneal Epithelial-Like Cells Derived from Human Embryonic Stem Cells for Cellularization of a Corneal Scaffold.
+- PUBMED_0120 / PMID 30548137 / score 17 / epithelium_limbus: An in situ hydrogel based on carboxymethyl chitosan and sodium alginate dialdehyde for corneal wound healing after alkali burn.
+- PUBMED_0241 / PMID 31988856 / score 17 / epithelium_limbus: Propagation of limbal stem cells on polycaprolactone and polycaprolactone/gelatin fibrous scaffolds and transplantation in animal model.
+- PUBMED_0359 / PMID 33210832 / score 17 / epithelium_limbus: Transplantation of human corneal limbal epithelial cell sheet harvested on synthesized carboxymethyl cellulose and dopamine in a limbal stem cell deficiency.
+- PUBMED_0447 / PMID 34302219 / score 17 / epithelium_limbus: cG-CAOMECS-clinical-grade cultured autologous oral mucosal epithelial cell sheet.
+- PUBMED_0450 / PMID 34330126 / score 17 / epithelium_limbus: Bioprinting of dual ECM scaffolds encapsulating limbal stem/progenitor cells in active and quiescent statuses.
+- PUBMED_0485 / PMID 34684011 / score 17 / epithelium_limbus: Generation of a Biomimetic Substitute of the Corneal Limbus Using Decellularized Scaffolds.
+- PUBMED_0632 / PMID 36772078 / score 17 / epithelium_limbus: Detection of Limbal Stem Cells Adhered to Melt Electrospun Silk Fibroin and Gelatin-Modified Polylactic Acid Scaffolds.
+- PUBMED_0672 / PMID 37273996 / score 17 / epithelium_limbus: 3D bioprinting as a prospective therapeutic strategy for corneal limbal epithelial stem cell deficiency.
+- PUBMED_0702 / PMID 37594449 / score 17 / epithelium_limbus: Application of Noggin-Coated Electrospun Scaffold in Corneal Wound Healing.
+- PUBMED_0799 / PMID 39050175 / score 17 / epithelium_limbus: The effect of cultured autologous oral mucosal epithelial cells on ocular surface reconstruction.
+- PUBMED_0826 / PMID 39375390 / score 17 / epithelium_limbus: Bio-printing method as a novel approach to obtain a fibrin scaffold settled by limbal epithelial cells for corneal regeneration.
+- PUBMED_0843 / PMID 39558722 / score 17 / epithelium_limbus: Proliferation and differentiation of Wharton's jelly-derived mesenchymal stem cells on prgf-treated hydrogel scaffold.
+- PUBMED_0867 / PMID 39800095 / score 17 / epithelium_limbus: Rho kinase inhibitor Y-27632 and dual media culture approach promote the construction and transplantation of rabbit limbal epithelial cell sheets via cell spheroid culture and auto-bioprinting.
+- PUBMED_0908 / PMID 40168696 / score 17 / epithelium_limbus: Decellularized human amniotic member hydrogel promotes limbal stem cells proliferation.
+- PUBMED_0919 / PMID 40296037 / score 17 / epithelium_limbus: Self-healing adhesive oxidized guar gum hydrogel loaded with mesenchymal stem cell exosomes for corneal wound healing.
+- PUBMED_0937 / PMID 40451552 / score 17 / epithelium_limbus: Topical delivery of cultivated limbal stem cells via porous photocurable hydrogel: A noninvasive, convenient, and efficient stem cells delivery strategy for limbal stem cell deficiency.
+- PUBMED_1071 / PMID 42032346 / score 17 / epithelium_limbus: Surface modified electrospun scaffold supports iPSC-derived limbal stem cell function.
+- PUBMED_1072 / PMID 42035972 / score 17 / epithelium_limbus: Limbal organoids and bioengineering sheets based on niche microphysiological systems and bioprinting for corneal injury repair in rabbits.
+- PUBMED_0144 / PMID 30918800 / score 17 / multiple_layers: Construction of a full-thickness human corneal substitute from anterior acellular porcine corneal matrix and human corneal cells.
+- PUBMED_0273 / PMID 32368948 / score 17 / multiple_layers: Engineering a Corneal Stromal Equivalent Using a Novel Multilayered Fabrication Assembly Technique.
+- PUBMED_0016 / PMID 29176452 / score 17 / stroma: Collagen-Based Fillers as Alternatives to Cyanoacrylate Glue for the Sealing of Large Corneal Perforations.
+- PUBMED_0224 / PMID 31751429 / score 17 / stroma: Treatment of corneal endothelial damage in a rabbit model with a bioengineered graft using human decellularized corneal lamina and cultured human corneal endothelium.
+- PUBMED_0616 / PMID 36579828 / score 17 / stroma: Hyaluronic acid based next generation bioink for 3D bioprinting of human stem cell derived corneal stromal model with innervation.
+- PUBMED_0081 / PMID 30066447 / score 16 / endothelium: Ex Vivo Functionality of 3D Bioprinted Corneal Endothelium Engineered with Ribonuclease 5-Overexpressing Human Corneal Endothelial Cells.
+- PUBMED_0171 / PMID 31258659 / score 16 / endothelium: Ex vivo construction of rabbit corneal endothelial cell sheets on a porcine descemet membrane graft.
+- PUBMED_0073 / PMID 29978836 / score 16 / multiple_layers: Decellularized corneal lenticule embedded compressed collagen: toward a suturable collagenous construct for limbal reconstruction.
+- PUBMED_0253 / PMID 32097748 / score 16 / multiple_layers: Multifunctional synthetic Bowman's membrane-stromal biomimetic for corneal reconstruction.
+- PUBMED_0317 / PMID 32743953 / score 16 / multiple_layers: Sustained Release of TPCA-1 from Silk Fibroin Hydrogels Preserves Keratocyte Phenotype and Promotes Corneal Regeneration by Inhibiting Interleukin-1β Signaling.
+- PUBMED_0395 / PMID 33603277 / score 16 / multiple_layers: Simultaneous Interpenetrating Polymer Network of Collagen and Hyaluronic Acid as an In Situ-Forming Corneal Defect Filler.
+- PUBMED_0453 / PMID 34400306 / score 16 / multiple_layers: Hydrogels derived from acellular porcine corneal stroma enhance corneal wound healing.
+- PUBMED_0540 / PMID 35386466 / score 16 / multiple_layers: 3D printed biomimetic epithelium/stroma bilayer hydrogel implant for corneal regeneration.
+- PUBMED_0560 / PMID 35769102 / score 16 / multiple_layers: Electron-Beam Irradiated Recombinant Human Collagen-Phosphorylcholine Corneal Implants Retain Pro-Regeneration Capacity.
+- PUBMED_0582 / PMID 36040708 / score 16 / multiple_layers: Natural Dual-Crosslinking Bioadhesive Hydrogel for Corneal Regeneration in Large-Size Defects.
+- PUBMED_0585 / PMID 36063670 / score 16 / multiple_layers: Reconstructing auto tissue engineering lamellar cornea with aspartic acid modified acellular porcine corneal stroma and preconditioned limbal stem cell for corneal regeneration.
+- PUBMED_0596 / PMID 36239965 / score 16 / multiple_layers: In Situ-Forming Collagen-Hyaluronate Semi-Interpenetrating Network Hydrogel Enhances Corneal Defect Repair.
+- PUBMED_0606 / PMID 36497012 / score 16 / multiple_layers: Transcriptomic Landscape and Functional Characterization of Human Induced Pluripotent Stem Cell-Derived Limbal Epithelial Progenitor Cells.
+- PUBMED_0620 / PMID 36638943 / score 16 / multiple_layers: An electrospun scaffold functionalized with a ROS-scavenging hydrogel stimulates ocular wound healing.
+- PUBMED_0637 / PMID 36844364 / score 16 / multiple_layers: A "T.E.S.T." hydrogel bioadhesive assisted by corneal cross-linking for in situ sutureless corneal repair.
+- PUBMED_0646 / PMID 36989713 / score 16 / multiple_layers: Successful restoration of corneal surface integrity with a tissue-engineered allogeneic implant in severe keratitis patients.
+- PUBMED_0648 / PMID 37019117 / score 16 / multiple_layers: Digital light processing-bioprinted poly-NAGA-GelMA-based hydrogel lenticule for precise refractive errors correction.
+- PUBMED_0688 / PMID 37456580 / score 16 / multiple_layers: A suture-free, shape self-adaptive and bioactive PEG-Lysozyme implant for Corneal stroma defect repair and rapid vision restoration.
+- PUBMED_0719 / PMID 37866722 / score 16 / multiple_layers: A double-crosslinked nanocellulose-reinforced dexamethasone-loaded collagen hydrogel for corneal application and sustained anti-inflammatory activity.
+- PUBMED_0754 / PMID 38454966 / score 16 / multiple_layers: 3D printing sequentially strengthening high-strength natural polymer hydrogel bilayer scaffold for cornea regeneration.
+- PUBMED_0770 / PMID 38646166 / score 16 / multiple_layers: Kuragel: A biomimetic hydrogel scaffold designed to promote corneal regeneration.
+- PUBMED_0814 / PMID 39197237 / score 16 / multiple_layers: Corneal stromal structure replicating humanized hydrogel patch for sutureless repair of deep anterior-corneal defect.
+- PUBMED_0828 / PMID 39386574 / score 16 / multiple_layers: In Situ UNIversal Orthogonal Network (UNION) Bioink Deposition for Direct Delivery of Corneal Stromal Stem Cells to Corneal Wounds.
+- PUBMED_0844 / PMID 39558795 / score 16 / multiple_layers: Natural Extracellular Matrix Scaffold-Based Hydrogel Corneal Patch with Temperature and Light-Responsiveness for Penetrating Keratoplasty and Sutureless Stromal Defect Repair.
+- PUBMED_0850 / PMID 39643222 / score 16 / multiple_layers: 3D printing of stiff, tough, and ROS-scavenging nanocomposite hydrogel scaffold for in situ corneal repair.
+- PUBMED_0860 / PMID 39693435 / score 16 / multiple_layers: Biologically inspired bioactive hydrogels for scarless corneal repair.
+- PUBMED_0866 / PMID 39798638 / score 16 / multiple_layers: 3D printed biomimetic bilayer limbal implants for regeneration of the corneal structure in limbal stem cell deficiency.
+- PUBMED_0877 / PMID 39853921 / score 16 / multiple_layers: Artificial Cornea Substitute Based on Hydrogel Skeletons with Natural Stromal Hierarchical Structure and Extracellular Matrix for Sutureless Transplantation.
+- PUBMED_0902 / PMID 40061375 / score 16 / multiple_layers: The influence of amniotic membrane proteins on corneal regeneration when delivered directly or using hydrogel platforms.
+- PUBMED_0904 / PMID 40083774 / score 16 / multiple_layers: In situ UNIversal Orthogonal Network (UNION) bioink deposition for direct delivery of corneal stromal stem cells to corneal wounds.
+- PUBMED_0907 / PMID 40159843 / score 16 / multiple_layers: Photocurable Dual-Network Hydrogels Based on Natural Polymers for Sutureless Repair of Large Corneal Defects.
+- PUBMED_0928 / PMID 40395134 / score 16 / multiple_layers: Highly transparent and elastic acellular swim bladder with potential application in cornea implantation.
+- PUBMED_0949 / PMID 40641839 / score 16 / multiple_layers: Engineering a functionality-integrated artificial cornea stromal Substitute: Janus bio-adhesive implant with a collagen-based multi-scale biomimetic skeleton.
+- PUBMED_1006 / PMID 41203155 / score 16 / multiple_layers: Photocurable hybrid hydrogels based on gelatin and polysaccharides for sutureless repair of corneal defects.
+- PUBMED_1021 / PMID 41460069 / score 16 / multiple_layers: 3D-Bioprinted Biomimetic Epithelial-Stromal Hydrogel Construct with In Situ Photocrosslinkable Bioadhesive for Suture-Free Corneal Regeneration.
+- PUBMED_1039 / PMID 41554492 / score 16 / multiple_layers: A natural corneal extracellular matrix-inspired dual-crosslinked hydrogel bioadhesive for emergency corneal trauma repair.
+- PUBMED_1049 / PMID 41678599 / score 16 / multiple_layers: Composite Decellularized Corneal Hydrogel for Effective Corneal Injury Repair and Regeneration.
+- PUBMED_1057 / PMID 41794129 / score 16 / multiple_layers: Near complete corneal regeneration after lamellar keratoplasty in rabbits enabled by an in situ photo-crosslinkable dendrimer-hyaluronic acid hydrogel.
+- PUBMED_0069 / PMID 29883810 / score 16 / stroma: Cell-laden and orthogonal-multilayer tissue-engineered corneal stroma induced by a mechanical collagen microenvironment and transplantation in a rabbit model.
+- PUBMED_0482 / PMID 34665455 / score 16 / stroma: Preparation and In Vitro Characterization of Gelatin Methacrylate for Corneal Tissue Engineering.
+- PUBMED_0601 / PMID 36356877 / score 16 / stroma: Silk fibroin based interpenetrating network hydrogel for corneal stromal regeneration.
+- PUBMED_0709 / PMID 37731910 / score 16 / stroma: Optimization and evaluation of oxygen-plasma-modified, aligned, poly (Є-caprolactone) and silk fibroin nanofibrous scaffold for corneal stromal regeneration.
+- PUBMED_0750 / PMID 38428773 / score 16 / stroma: 3D bioprinted photo crosslinkable GelMA/methylcellulose hydrogel mimicking native corneal model with enhanced in vitro cytocompatibility and sustained keratocyte phenotype for stromal regeneration.
+- PUBMED_0805 / PMID 39101028 / score 16 / stroma: Oriented cellulose hydrogel: Directed tissue regeneration for reducing corneal leukoplakia and managing fungal corneal ulcers.
+- PUBMED_0812 / PMID 39169887 / score 16 / stroma: Granular polyrotaxane microgels as injectable hydrogels for corneal tissue regeneration.
+- PUBMED_0818 / PMID 39218556 / score 16 / stroma: Triple-crosslinked double-network alginate/dextran/dendrimer hydrogel with tunable mechanical and adhesive properties: A potential candidate for sutureless keratoplasty.
+- PUBMED_0871 / PMID 39819884 / score 16 / stroma: Digital light processing 3D bioprinting of biomimetic corneal stroma equivalent using gelatin methacryloyl and oxidized carboxymethylcellulose interpenetrating network hydrogel.
+- PUBMED_0947 / PMID 40613723 / score 16 / stroma: A graphene oxide/niobium carbide MXene composite-based functional nanocomposite scaffold for artificial corneas.
+- PUBMED_0990 / PMID 41073348 / score 16 / stroma: Native Bio-Lenticules Mediated Rapamycin Delivery for Corneal Immunomodulation and Tissue Repair Promotion.
+- PUBMED_1038 / PMID 41548128 / score 16 / stroma: In Vivo Evaluation of Injected and Bioprinted Hyaluronic Acid-Based Bioink in Corneal Stromal Pocket.
+- PUBMED_1068 / PMID 41947731 / score 16 / stroma: Functional 3D bioprinting with GelMA/CMCh bioinks: a supportive microenvironment for stromal keratocyte maintenance and potential corneal stromal repair.
+- PUBMED_0322 / PMID 32805263 / score 15 / endothelium: Tissue engineered ultra-thin descemet stripping corneal endothelial layers using porcine cornea and stem cells.
+- PUBMED_0378 / PMID 33448665 / score 15 / endothelium: Bioinspired hydrogel surfaces to augment corneal endothelial cell monolayer formation.
+- PUBMED_0469 / PMID 34552187 / score 15 / endothelium: Optimization of polycaprolactone - based nanofiber matrices for the cultivation of corneal endothelial cells.
+- PUBMED_0531 / PMID 35238557 / score 15 / endothelium: Novel Corneal Endothelial Cell Carrier Couples a Biodegradable Polymer and a Mesenchymal Stem Cell-Derived Extracellular Matrix.
+- PUBMED_0649 / PMID 37023465 / score 15 / endothelium: In Vitro Profiling of the Extracellular Matrix and Integrins Expressed by Human Corneal Endothelial Cells Cultured on Silk Fibroin-Based Matrices.
+- PUBMED_0777 / PMID 38780042 / score 15 / endothelium: Alginate Hydrogel Integrated with a Human Fibroblast-Derived Extracellular Matrix Supports Corneal Endothelial Cell Functionality and Suppresses Endothelial-Mesenchymal Transition.
+- PUBMED_0827 / PMID 39386038 / score 15 / endothelium: The time dependent influence of curvature and topography of biomaterials in the behavior of corneal endothelial cells.
+- PUBMED_0934 / PMID 40446990 / score 15 / endothelium: The interaction of the biocompatible scaffold containing nanochitosan-chitosan-polycaprolactone with telomerase activator and rock inhibitor in propagation and functional properties of corneal endothelial cells.
+- PUBMED_0981 / PMID 40986463 / score 15 / endothelium: Tissue-Engineered Endothelial Keratoplasty with Controlled Cell Density: Toward Super TEEKs.
+- PUBMED_0131 / PMID 30716697 / score 15 / epithelium_limbus: Poly-l/dl-lactic acid films functionalized with collagen IV as carrier substrata for corneal epithelial stem cells.
+- PUBMED_0477 / PMID 34620226 / score 15 / epithelium_limbus: Long-term survival of cultivated oral mucosal epithelial cells in human cornea: generating cell sheets using an animal product-free culture protocol.
+- PUBMED_0663 / PMID 37126648 / score 15 / epithelium_limbus: Collagen Gels Crosslinked by Photoactivation of Riboflavin for the Repair and Regeneration of Corneal Defects.
+- PUBMED_0671 / PMID 37273984 / score 15 / epithelium_limbus: Personalized 3D-printed amniotic fornical ring for ocular surface reconstruction.
+- PUBMED_0694 / PMID 37486330 / score 15 / epithelium_limbus: Plasma fibrin membranes loaded with bone marrow mesenchymal stem cells and corneal epithelial cells promote corneal injury healing via attenuating inflammation and fibrosis after corneal burns.
+- PUBMED_0779 / PMID 38803982 / score 15 / epithelium_limbus: Electrospun poly(l-lactide-co-dl-lactide) nanofibrous scaffold as substrate for ex vivo limbal epithelial cell cultivation.
+- PUBMED_0963 / PMID 40777142 / score 15 / epithelium_limbus: Corneal surface reconstruction for the chemical injured eye by transplanting autologous cultivated limbal epithelial sheet "Nepic(®)".
+- PUBMED_0987 / PMID 41068622 / score 15 / epithelium_limbus: Limbal stem cell sheet bandage for short-term treatment of corneal regeneration.
+- PUBMED_0910 / PMID 40221533 / score 14 / endothelium: Tissue engineered corneal endothelium transplantation in an ex vivo human cornea organ culture model.
+- PUBMED_0038 / PMID 29495264 / score 14 / multiple_layers: Engineering of Corneal Tissue through an Aligned PVA/Collagen Composite Nanofibrous Electrospun Scaffold.
+- PUBMED_0145 / PMID 30938102 / score 14 / multiple_layers: TGF-β1-activated type 2 dendritic cells promote wound healing and induce fibroblasts to express tenascin c following corneal full-thickness hydrogel transplantation.
+- PUBMED_0175 / PMID 31349505 / score 14 / multiple_layers: Compressed collagen intermixed with cornea-derived decellularized extracellular matrix providing mechanical and biochemical niches for corneal stroma analogue.
+- PUBMED_0196 / PMID 31514545 / score 14 / multiple_layers: Development and Characterization of an Acellular Porcine Small Intestine Submucosa Scaffold for Use in Corneal Epithelium Tissue Engineering.
+- PUBMED_0201 / PMID 31539656 / score 14 / multiple_layers: Characterizing the impact of 2D and 3D culture conditions on the therapeutic effects of human mesenchymal stem cell secretome on corneal wound healing in vitro and ex vivo.
+- PUBMED_0365 / PMID 33288782 / score 14 / multiple_layers: Deciphering the mechanoresponsive role of β-catenin in keratoconus epithelium.
+- PUBMED_0388 / PMID 33545838 / score 14 / multiple_layers: Construction of bioengineered corneal stromal implants using an allogeneic cornea-derived matrix.
+- PUBMED_0419 / PMID 33918484 / score 14 / multiple_layers: Human Cadaveric Donor Cornea Derived Extra Cellular Matrix Microparticles for Minimally Invasive Healing/Regeneration of Corneal Wounds.
+- PUBMED_0430 / PMID 34061862 / score 14 / multiple_layers: The effect of prior long-term recellularization with keratocytes of decellularized porcine corneas implanted in a rabbit anterior lamellar keratoplasty model.
+- PUBMED_0468 / PMID 34537415 / score 14 / multiple_layers: Supramolecular host-guest hyaluronic acid hydrogels enhance corneal wound healing through dynamic spatiotemporal effects.
+- PUBMED_0674 / PMID 37282676 / score 14 / multiple_layers: 21 Denuded descemet's membrane as potential tool to support human embryonic stem cell derived retinal pigment epithelial cells culture.
+- PUBMED_0690 / PMID 37476050 / score 14 / multiple_layers: Decellularized squid mantle scaffolds as tissue-engineered corneal stroma for promoting corneal regeneration.
+- PUBMED_0708 / PMID 37721301 / score 14 / multiple_layers: Chitosan-based thermosensitive hydrogel with long-term release of murine nerve growth factor for neurotrophic keratopathy.
+- PUBMED_0797 / PMID 39022184 / score 14 / multiple_layers: Photoactivated growth factor release from bio-orthogonally crosslinked hydrogels for the regeneration of corneal defects.
+- PUBMED_0802 / PMID 39075142 / score 14 / multiple_layers: A novel tissue-engineered corneal epithelium based on ultra-thin amniotic membrane and mesenchymal stem cells.
+- PUBMED_0806 / PMID 39106436 / score 14 / multiple_layers: In Situ-Forming, Bioorthogonally Cross-linked, Nanocluster-Reinforced Hydrogel for the Regeneration of Corneal Defects.
+- PUBMED_0817 / PMID 39216318 / score 14 / multiple_layers: Bioprinting of anisotropic functional corneal stroma using mechanically robust multi-material bioink based on decellularized cornea matrix.
+- PUBMED_0905 / PMID 40145466 / score 14 / multiple_layers: Preclinical Testing of 3D Printed, Cell Loaded Hydrogel Based Corneal Substitutes on Rabbit Model.
+- PUBMED_0938 / PMID 40481091 / score 14 / multiple_layers: Therapeutic efficacy of BSA formulated hydrogels in corneal wound healing and epithelial cell regeneration: an ex vivo study.
+- PUBMED_0973 / PMID 40893304 / score 14 / multiple_layers: Hydrogel-Mediated Sustained Delivery of Corneal Epithelial Extracellular Vesicles: A Strategy for Enhanced Corneal Regeneration.
+- PUBMED_1011 / PMID 41234357 / score 14 / multiple_layers: The impact of the limbal niche interactions on the self-renewal capability of limbal epithelial stem cells.
+- PUBMED_0106 / PMID 30339045 / score 14 / stroma: Evaluation of the Suitability of Biocompatible Carriers as Artificial Transplants Using Cultured Porcine Corneal Endothelial Cells.
+- PUBMED_0152 / PMID 30995622 / score 14 / stroma: Shear-induced alignment of collagen fibrils using 3D cell printing for corneal stroma tissue engineering.
+- PUBMED_0270 / PMID 32363924 / score 14 / stroma: In Vitro Evaluation and Transplantation of Human Corneal Endothelial Cells Cultured on Biocompatible Carriers.
+- PUBMED_0530 / PMID 35229601 / score 14 / stroma: Tissue-Engineered Corneal Endothelial Sheets Using Ultrathin Acellular Porcine Corneal Stroma Substrates for Endothelial Keratoplasty.
+- PUBMED_0605 / PMID 36458563 / score 14 / stroma: Use of Decellularized SMILE (Small-Incision Lenticule Extraction) Lenticules for Engineering the Corneal Endothelial Layer: A Proof-of-Concept.
+- PUBMED_0699 / PMID 37539164 / score 14 / stroma: A composite hydrogel membrane with shape and water retention for corneal tissue engineering.
+- PUBMED_0706 / PMID 37669915 / score 14 / stroma: 3D Bioprinting of Acellular Corneal Stromal Scaffolds with a Low Cost Modified 3D Printer: A Feasibility Study.
+- PUBMED_0821 / PMID 39328788 / score 14 / stroma: Preparation, physico-biochemical characterization, and proteomic analysis of highly transparent corneal extracellular matrices for lamellar keratoplasty and tissue-engineered cornea construction.
+- PUBMED_0888 / PMID 39930756 / score 14 / stroma: Enhanced Bioprinting of 3D Corneal Stroma Patches with Reliability, Assessing Product Consistency and Quality through Optimized Electron Beam Sterilization.
+- PUBMED_0944 / PMID 40555247 / score 14 / stroma: 3D bioprinted GelMA/collagen hydrogel for corneal stroma regeneration.
+- PUBMED_1074 / PMID 42059163 / score 14 / stroma: Real Architecture for 3D Tissue (RAFT): Mechanical Properties and Ability to Support the 3D Culture of Porcine Corneal Endothelial Cells.
+- PUBMED_0165 / PMID 31174988 / score 13 / endothelium: Native means of graft stabilization: Host descemetic scaffolding and wound scaffolding to decrease the risk for graft detachment in DMEK and PDEK.
+- PUBMED_0303 / PMID 32603022 / score 13 / endothelium: Designer Descemet Membranes Containing PDLLA and Functionalized Gelatins as Corneal Endothelial Scaffold.
+- PUBMED_0128 / PMID 30652765 / score 13 / epithelium_limbus: Amniotic membrane as a biological scaffold for dental pulp stem cell transplantation in ocular surface reconstruction.
+- PUBMED_0060 / PMID 29710848 / score 12 / endothelium: Biofunctionalized Lysophosphatidic Acid/Silk Fibroin Film for Cornea Endothelial Cell Regeneration.
+- PUBMED_0045 / PMID 29620862 / score 12 / epithelium_limbus: Gelatin-Based Photocurable Hydrogels for Corneal Wound Repair.
+- PUBMED_0240 / PMID 31956817 / score 12 / epithelium_limbus: Construction and Evaluation of Collagen-Based Corneal Grafts Using Polycaprolactone To Improve Tension Stress.
+- PUBMED_0571 / PMID 35894700 / score 12 / epithelium_limbus: Biofunctional peptide-click PEG-based hydrogels as 3D cell scaffolds for corneal epithelial regeneration.
+- PUBMED_0623 / PMID 36708851 / score 12 / epithelium_limbus: Highly stable fibronectin-mimetic-peptide-based supramolecular hydrogel to accelerate corneal wound healing.
+- PUBMED_0745 / PMID 38355568 / score 12 / epithelium_limbus: The application of a 4D-printed chitosan-based stem cell carrier for the repair of corneal alkali burns.
+- PUBMED_0774 / PMID 38750781 / score 12 / epithelium_limbus: Cell spray printing combined with Lycium barbarum glycopeptide promotes repair of corneal epithelial injury.
+- PUBMED_0819 / PMID 39298836 / score 12 / epithelium_limbus: Phytic acid-loaded polyvinyl alcohol hydrogel promotes wound healing of injured corneal epithelium through inhibiting ferroptosis.
+- PUBMED_0933 / PMID 40444446 / score 12 / epithelium_limbus: Chirality Regulates Stem Cell Fate and Promotes Corneal Epithelial Regeneration via Manipulating Notch Pathway.
+- PUBMED_0936 / PMID 40449707 / score 12 / epithelium_limbus: Compartmentalized 3D bioprinting of the limbal niche with distinct hPSC-LSC subpopulations for corneal disease modeling.
+- PUBMED_1035 / PMID 41535560 / score 12 / epithelium_limbus: Evaluation of dECM hydrogel-NAP on 3D organotypic human corneal epithelium in diabetic keratopathy model.
+- PUBMED_0205 / PMID 31574405 / score 12 / multiple_layers: Tissue adhesive hyaluronic acid hydrogels for sutureless stem cell delivery and regeneration of corneal epithelium and stroma.
+- PUBMED_0755 / PMID 38466286 / score 12 / multiple_layers: Substrate Stiffness Modulates Stemness and Differentiation of Rabbit Corneal Endothelium Through the Paxillin-YAP Pathway.
+- PUBMED_0738 / PMID 38226015 / score 12 / stroma: Novel strategy for multi-material 3D bioprinting of human stem cell based corneal stroma with heterogenous design.
+- PUBMED_1053 / PMID 41742708 / score 12 / stroma: A New Bioprinted Dual-Layered Corneal Structure Using Collagen-Based Bioinks.
+- PUBMED_0285 / PMID 32504216 / score 11 / multiple_layers: Preparation of collagen/cellulose nanocrystals composite films and their potential applications in corneal repair.
+- PUBMED_0308 / PMID 32652796 / score 11 / multiple_layers: Decellularized human corneal stromal cell sheet as a novel matrix for ocular surface reconstruction.
+- PUBMED_0329 / PMID 32841745 / score 11 / multiple_layers: Decellularized porcine cornea-derived hydrogels for the regeneration of epithelium and stroma in focal corneal defects.
+- PUBMED_0346 / PMID 33037282 / score 11 / multiple_layers: A porous collagen-based hydrogel and implantation method for corneal stromal regeneration and sustained local drug delivery.
+- PUBMED_0521 / PMID 35120168 / score 11 / multiple_layers: Bio-fabrication of stem-cell-incorporated corneal epithelial and stromal equivalents from silk fibroin and gelatin-based biomaterial for canine corneal regeneration.
+- PUBMED_0547 / PMID 35528407 / score 11 / multiple_layers: Microgrooved collagen-based corneal scaffold for promoting collective cell migration and antifibrosis.
+- PUBMED_0652 / PMID 37056274 / score 11 / multiple_layers: MiRNA 24-3p-rich exosomes functionalized DEGMA-modified hyaluronic acid hydrogels for corneal epithelial healing.
+- PUBMED_0700 / PMID 37555081 / score 11 / multiple_layers: 3D bioprinting of corneal decellularized extracellular matrix: GelMA composite hydrogel for corneal stroma engineering.
+- PUBMED_0726 / PMID 37988231 / score 11 / multiple_layers: Biomimetic Corneal Stroma for Scarless Corneal Wound Healing via Structural Restoration and Microenvironment Modulation.
+- PUBMED_0730 / PMID 38044579 / score 11 / multiple_layers: A Versatile Hydrogel with Antibacterial and Sequential Drug-Releasing Capability for the Programmable Healing of Infectious Keratitis.
+- PUBMED_0748 / PMID 38413368 / score 11 / multiple_layers: Application of multi-layer porcine small intestinal submucosa for the reconstruction of deep corneal defects in cats.
+- PUBMED_0757 / PMID 38471165 / score 11 / multiple_layers: Biopolymeric corneal lenticules by digital light processing based bioprinting: a dynamic substitute for corneal transplant.
+- PUBMED_0759 / PMID 38472685 / score 11 / multiple_layers: Hydrogels Based on Recombinant Spidroin Stimulate Proliferation and Migration of Human Corneal Cells.
+- PUBMED_0889 / PMID 39935895 / score 11 / multiple_layers: Photochemical corneal cross-linking: Evaluating the potential of a hand-held biopen.
+- PUBMED_0962 / PMID 40762540 / score 11 / multiple_layers: Human Omental Mesothelial Cells Exhibit a Corneal Endothelial-Like Cell Phenotype for Tissue Engineering of a Corneal Endothelium Biomimetic.
+- PUBMED_0978 / PMID 40945255 / score 11 / multiple_layers: EMERGE patch, a novel electrogenic engineered material to enhance healing of severe corneal wounds.
+- PUBMED_0989 / PMID 41070062 / score 11 / multiple_layers: Comparison of the regenerative potential of different functionalized gelatin-based hydrogels as fillers of rabbit corneal wounds.
+- PUBMED_1015 / PMID 41359360 / score 11 / multiple_layers: Alkaline Phosphatase-Triggered Spatiotemporal Repair of Corneal Injury with TB500 Peptide Hydrogel.
+- PUBMED_1025 / PMID 41488431 / score 11 / multiple_layers: Antibiotic nanozyme hydrogel depot for single-injection MDR bacterial keratitis therapy via localized antibacterial, pro-healing and corneal reinforcement.
+- PUBMED_1031 / PMID 41506503 / score 11 / multiple_layers: Bioactive thermoresponsive fibronectin-Pluronic F127 hydrogel for sustained ocular delivery with corneal regeneration and anti-inflammatory effects.
+- PUBMED_1036 / PMID 41538991 / score 11 / multiple_layers: Bioactive peptides-incorporated photo-crosslinking hydrogel for suture-free repair of corneal injuries.
+- PUBMED_1058 / PMID 41808764 / score 11 / multiple_layers: Photocrosslinked dual-network hydrogel for sutureless corneal stromal lenticule lmplantation.
+- PUBMED_1069 / PMID 41962437 / score 11 / multiple_layers: A magnolol/BMSC-integrated collagen hydrogel with dual anti-inflammatory and regenerative functions for corneal repair.
+- PUBMED_0008 / PMID 29024376 / score 11 / stroma: Evaluation of collagen foam, poly(l-lactic acid) nanofiber mesh, and decellularized matrices for corneal regeneration.
+- PUBMED_0013 / PMID 29128534 / score 11 / stroma: Development of gelatin/ascorbic acid cryogels for potential use in corneal stromal tissue engineering.
+- PUBMED_0284 / PMID 32504140 / score 11 / stroma: Stereolithography 3D Bioprinting Method for Fabrication of Human Corneal Stroma Equivalent.
+- PUBMED_0289 / PMID 32526297 / score 11 / stroma: Corneal stromal regeneration by hybrid oriented poly (ε-caprolactone)/lyophilized silk fibroin electrospun scaffold.
+- PUBMED_0386 / PMID 33538123 / score 11 / stroma: Cell sheet technology: Influence of culture conditions on in vitro-cultivated corneal stromal tissue for regenerative therapies of the ocular surface.
+- PUBMED_0398 / PMID 33659091 / score 11 / stroma: Quantitative measurement of mechanical properties in wound healing processes in a corneal stroma model by using vibrational optical coherence elastography (OCE).
+- PUBMED_0409 / PMID 33782482 / score 11 / stroma: Biofabrication of chitosan/chitosan nanoparticles/polycaprolactone transparent membrane for corneal endothelial tissue engineering.
+- PUBMED_0684 / PMID 37401723 / score 11 / stroma: Introducing Dynamicity: Engineering Stress Relaxation Into Hydrogels Via Thiol-Ene Modified Alginate for Mechanobiological in vitro Modeling of the Cornea.
+- PUBMED_0804 / PMID 39096155 / score 11 / stroma: Fabrication of GelMA - Agarose Based 3D Bioprinted Photocurable Hydrogel with In Vitro Cytocompatibility and Cells Mirroring Natural Keratocytes for Corneal Stromal Regeneration.
+- PUBMED_0997 / PMID 41129923 / score 11 / stroma: Comparative evaluation of the mechanical properties of amniotic membranes for corneal grafting: Effects of cryopreservation, lyophilization, and dehydration.
+
+## Output Files
+
+- Strict retrieval shortlist: `screening/full_text/pubmed_strict_retrieval_shortlist.csv`
+- Retrieve later/background records: `screening/full_text/pubmed_retrieval_later_records.csv`
