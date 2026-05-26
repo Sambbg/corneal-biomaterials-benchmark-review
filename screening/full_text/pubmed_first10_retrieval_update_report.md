@@ -48,8 +48,3 @@ This report documents the first 10-paper full-text retrieval test from the corre
 - not_checked: 70
 - maybe: 6
 - no: 4
-
-## Files Updated
-
-- Active tracker: `screening/full_text/pubmed_first_batch_retrieval_tracker_corrected_layers.csv`
-- Backup before update: `screening/full_text/pubmed_first_batch_retrieval_tracker_corrected_layers_before_first10_update.csv`
