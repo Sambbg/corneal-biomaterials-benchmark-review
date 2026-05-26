@@ -8,6 +8,13 @@ This extraction template is designed for layer-specific benchmarking of corneal 
 
 - Records prepared for extraction: 185
 
+## Records by Layer
+
+- multiple_layers: 108
+- stroma: 56
+- epithelium_limbus: 15
+- endothelium: 6
+
 ## Key Benchmarking Domains
 
 - Optical performance

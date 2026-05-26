@@ -1,5 +1,6 @@
 from pathlib import Path
 import csv
+from collections import Counter
 
 INPUT = Path("screening/full_text/pubmed_provisional_final_core_records.csv")
 OUTPUT = Path("extraction/pubmed_core_data_extraction_template.csv")
@@ -63,6 +64,8 @@ with OUTPUT.open("w", newline="", encoding="utf-8") as f:
     writer.writeheader()
     writer.writerows(out_rows)
 
+layer_counts = Counter(r["corneal_layer"] for r in rows)
+
 with REPORT.open("w", encoding="utf-8") as f:
     f.write("# PubMed Core Data Extraction Template Report\n\n")
 
@@ -72,7 +75,11 @@ with REPORT.open("w", encoding="utf-8") as f:
     f.write("## Records Included\n\n")
     f.write(f"- Records prepared for extraction: {len(out_rows)}\n\n")
 
-    f.write("## Key Benchmarking Domains\n\n")
+    f.write("## Records by Layer\n\n")
+    for k, v in layer_counts.most_common():
+        f.write(f"- {k}: {v}\n")
+
+    f.write("\n## Key Benchmarking Domains\n\n")
     f.write("- Optical performance\n")
     f.write("- Mechanical performance\n")
     f.write("- Biological/cytocompatibility performance\n")
@@ -85,4 +92,7 @@ with REPORT.open("w", encoding="utf-8") as f:
 
 print("Data extraction template created.")
 print(f"Records prepared for extraction: {len(out_rows)}")
+print("Records by layer:")
+for k, v in layer_counts.most_common():
+    print(f"{k}: {v}")
 print(f"Output: {OUTPUT}")
