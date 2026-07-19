@@ -6,20 +6,21 @@ This report prioritizes the balanced final PubMed core for full-text retrieval. 
 
 ## Total Records Prioritized
 
-- Records prioritized: 246
+- Records prioritized: 248
 
 ## Priority Group Counts
 
 - Priority 1 - retrieve first: 194
-- Priority 2 - retrieve second: 44
+- Priority 2 - retrieve second: 45
 - Priority 3 - retrieve third: 8
+- Priority 4 - retrieve later: 1
 
 ## Layer Counts
 
 - multiple_layers: 104
-- stroma: 56
+- stroma: 57
 - epithelium_limbus: 53
-- endothelium: 33
+- endothelium: 34
 
 ## Priority 1 Records
 
