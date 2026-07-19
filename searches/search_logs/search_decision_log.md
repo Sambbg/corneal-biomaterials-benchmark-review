@@ -135,3 +135,33 @@ Total before deduplication: 1318 records
 
 ### Next Action
 Create screening templates and begin title/abstract pilot screening using a small sample from each accepted search.
+
+### Date
+2026-07-19
+
+### Database
+Consensus (Semantic Scholar / PubMed / Scopus / ArXiv aggregator)
+
+### Search Version
+consensus_snowball_v0.1
+
+### Result Count
+2 queries, 20 results each (40 total reviewed)
+
+### Decision
+Accepted as supplementary evidence (protocol v0.2).
+
+### Reason
+Per protocol v0.2, the review stays single-database (PubMed) rather than expanding to Scopus/Web of Science/Embase, since the target is now a Q2 biomaterials journal rather than Acta Biomaterialia. To partially offset single-database risk, a targeted Consensus search was run against two query strings ("corneal tissue engineering biomaterials review layer-specific benchmarking" and "corneal endothelium bioengineered substitute clinical translation graft") to snowball-check recent (2022-2026) landmark primary studies and reviews against the existing PubMed screening corpus.
+
+Cross-checked ~10 standout titles against `screening/title_abstract/pubmed_title_abstract_screening.csv`. Findings:
+- Most recent landmark primary studies were already captured (RAFT collagen carrier work, allogeneic cornea-derived matrix graft, crosslinked amniotic membrane substitute, Hirayama et al. 2024 first-in-human iPSC corneal endothelial substitute trial).
+- Review articles correctly absent (reviews are excluded as primary evidence per inclusion/exclusion criteria) - not a search failure.
+- Two primary-study gaps confirmed genuinely missing: Puistola et al. 2024 (PMID 38513048, stroma-specific adipose-stem-cell-derived ECM bioink) and Ben Moussa et al. 2024 (PMID 38534529, femtosecond-laser-cut lens capsule endothelial carrier).
+- One related-work flag: Anitua et al. 2025, a PROSPERO-registered PRISMA systematic review (CRD420250654641) comparing bioengineered corneal grafts to healthy corneas across layers in animal models. Overlaps in subject matter; requires explicit differentiation in the introduction/discussion (see protocol v0.2, "Related Work Requiring Explicit Differentiation").
+
+### Changes Made
+Added Puistola et al. 2024 (PUBMED_1083) and Ben Moussa et al. 2024 (PUBMED_1084) to the title/abstract screening master file, the balanced final core records, and the extraction template via `scripts/add_consensus_gap_papers.py`. Regenerated the retrieval priority order (now 248 records) and created a two-tier extraction plan (`scripts/create_tier1_tier2_extraction_plan.py`), manually promoting both new papers to Tier 1 despite below-cutoff heuristic scores, since they were deliberately curated additions rather than bulk-triaged records.
+
+### Next Action
+Begin Tier 1 full-text retrieval in the order set by `screening/full_text/pubmed_tier1_tier2_extraction_plan.csv` (101 records), starting with the highest-scoring endothelium records and the two newly added gap papers.
