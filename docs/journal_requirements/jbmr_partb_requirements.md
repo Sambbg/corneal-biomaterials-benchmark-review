@@ -17,12 +17,22 @@ Source: Wiley JBMR-B "For Authors" page (https://onlinelibrary.wiley.com/page/jo
 - **ORCID:** required for at least the corresponding author (and recommended for all authors).
 - **Word limit:** none explicitly published for this journal — confirmed via search; if the editorial office states one via the submission portal at the time of actual submission, that supersedes this note.
 
-## Still Needed From Samuel Before Submission (not researchable)
+## Author / Affiliation Info (received 2026-07-21)
 
-- Author names, order, and affiliations for the byline (who is submitting this — solo-authored or with collaborators/advisor?).
-- Corresponding author's ORCID iD.
-- Any funding source / grant number to disclose.
-- Conflict of interest statement (default "the authors declare no conflict of interest" if none).
+- **Author:** Samuel Bertrand Bernard Gonzalves (sole author).
+- **Matric Number:** MKE251020
+- **Email:** bertrandbernard@graduate.utm.my
+- **Affiliation:** Universiti Teknologi Malaysia (UTM), Faculty of Electrical Engineering, Master of Science (Biomedical Engineering).
+- **Course:** MEBC1163-01 Kejuruteraan Tisu (Tissue Engineering), Academic Session/Semester 2025/2026-2.
+- **Course lecturer:** Dr Norhana Jusoh.
+
+This confirms the deliverable's actual context: a graduate-course literature review assignment (Tissue Engineering, UTM), written in journal-manuscript format/structure (JBMR-B Free Format conventions) rather than a live external submission. The manuscript will therefore include a course-appropriate title page (author, matric number, course code, session, lecturer) in addition to the standard journal-style sections. ORCID and external funding disclosure are not applicable in this context; conflict of interest defaults to "the authors declare no conflict of interest."
+
+## No Longer Needed
+
+- ORCID — not applicable for a course submission.
+- Funding source — not applicable; no external grant.
+- Conflict of interest — defaulted to none declared.
 
 ## Fallback Options (unchanged from protocol v0.2)
 
