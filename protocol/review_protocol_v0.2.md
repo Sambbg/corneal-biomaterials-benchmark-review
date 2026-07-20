@@ -14,6 +14,8 @@ From Optical Clarity to Clinical Readiness: A Layer-Specific Benchmarking Review
 
 ## Target Journal
 
+**FINAL DECISION (2026-07-20, Task #11): Journal of Biomedical Materials Research Part B: Applied Biomaterials.** See `docs/journal_requirements/jbmr_partb_requirements.md` for the confirmed submission requirements and rationale (Free Format submission, no hard word cap, closest topical fit).
+
 ### Primary shortlist (Q2, realistic for current evidence base)
 
 - Journal of Biomedical Materials Research Part B: Applied Biomaterials (Q2, IF 3.4) — closest fit; biomaterials-led, already publishes corneal-layer biomaterial studies of the type in this corpus.
