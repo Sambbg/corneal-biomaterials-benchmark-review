@@ -1,0 +1,19 @@
+{
+ "class": {
+  "Natural polymer": 5,
+  "Cell-sheet/scaffold-free": 1,
+  "Hybrid/composite": 5,
+  "Decellularized/natural ECM": 9,
+  "Other/not clearly classified": 4
+ },
+ "fab": {
+  "Other/cell culture-based": 5,
+  "3D bioprinting / DLP / vat photopolymerization": 3,
+  "Solvent casting / molding": 3,
+  "Photocurable / chemical crosslinking hydrogel": 4,
+  "Decellularization": 6,
+  "Self-assembling peptide/molecular hydrogel": 1,
+  "Femtosecond laser micromachining": 1,
+  "Electrospinning": 1
+ }
+}
