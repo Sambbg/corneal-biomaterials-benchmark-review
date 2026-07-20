@@ -41,14 +41,26 @@ Corneal tissue-engineering studies should not be judged only by novelty of bioma
 
 ## Related Work Requiring Explicit Differentiation
 
-Anitua et al. (2025), *Advances in Corneal Tissue Engineering: Comparative Performance of Bioengineered Grafts in Animal Models* (Medicina), is a PROSPERO-registered PRISMA systematic review comparing bioengineered corneal grafts to healthy corneas across layers in animal models (PROSPERO ID CRD420250654641).
+Anitua, Zalduendo & Alkhraisat (2025), *Advances in Corneal Tissue Engineering: Comparative Performance of Bioengineered Grafts in Animal Models* (Medicina 62(1):80, PMID 41597366, PMC12843299, open access, published 30 Dec 2025), is a PROSPERO-registered PRISMA systematic review (PROSPERO ID CRD420250654641). Full text read directly (2026-07-20) to ground this differentiation in the actual paper rather than the abstract alone.
 
-This review overlaps in subject matter but differs in framing:
+Concrete, citable differences (not just framing) confirmed from the full text:
 
-- Anitua et al. benchmark engineered grafts against healthy native corneas in animal models only.
-- This review benchmarks across optical, mechanical, biological, and translational/clinical-stage domains, including human first-in-human and clinical evidence where available, and is organized around a layer-specific benchmarking framework rather than an animal-model comparative performance question.
+- **Scope/inclusion is far narrower by design.** Anitua's PICO mandates an animal model AND a healthy-eye (lateral/contralateral) comparator arm; their exclusion criteria explicitly drop studies with no full text, sample size <5, or no healthy-eye comparison. This yielded 21 studies (20 articles) total across all three corneal layers combined. This review's core corpus is 248 records (100 Tier 1 fully extracted + 147 Tier 2), spanning in vitro-only, ex vivo, animal, and human clinical evidence — most of which Anitua's design would categorically exclude (e.g. pure in vitro studies, human clinical trials without a healthy-eye control arm).
+- **Outcome domains differ substantially.** Anitua's extraction table captures inflammation, fibrosis, neovascularization, transparency, thickness, and histology — mostly qualitative (present/absent) rather than quantitative. There is no mechanical/biomechanical property column anywhere in their data extraction or results tables. This review's benchmarking framework treats mechanical characterization (tensile strength, elastic modulus) as a co-equal domain alongside optical transparency, and reports quantitative values (e.g. MPa, kPa, % transmittance) directly in Table 2, plus a dedicated translational/clinical-readiness table (Table 4) and cell-source comparison (Table 3) that Anitua does not attempt.
+- **Search and timing.** Anitua searched PubMed, Scopus, and Web of Science on a single date (19 Feb 2025), restricted to the prior 10 years. This review is PubMed-primary with a targeted Consensus-based supplementary snowball check (protocol-justified single-database approach for a critical narrative review, not a formal systematic review), and its extraction continued through July 2026 — capturing several 2025-2026 papers (e.g. Aouimeur et al. 2026, "Super TEEKs") published after Anitua's search cutoff.
+- **Endothelium coverage is thin in Anitua** (2 studies meeting their strict inclusion criteria) **vs. substantial in this review** (33 Tier 1 records), reflecting the healthy-eye-comparator requirement excluding most in vitro endothelial characterization work.
 
-The introduction and discussion must cite and explicitly position against this paper. Failure to do so is a credible reviewer objection at any target journal.
+Net positioning: Anitua et al. is a rigorous, narrowly-scoped animal-efficacy systematic review answering "does the graft perform like a healthy eye in vivo?" This review answers a broader and different question — "does the biomaterial meet each layer's optical/mechanical/biological/translational requirements, across whatever evidence stage is available?" — and is explicitly not a replication or minor extension of Anitua's work.
+
+The introduction and discussion must cite and explicitly position against this paper using the concrete points above (not the generic framing from v0.1). Failure to do so is a credible reviewer objection at any target journal, especially given Anitua was published within weeks of this review's own drafting window.
+
+### Crouzet et al. 2022 / Aouimeur companion-paper decision (resolved 2026-07-20)
+
+Crouzet et al. (2021/2022), *Tissue engineered endothelial keratoplasty in rabbit: tips and tricks* (Acta Ophthalmologica, PMID 34967128), was flagged during Tier 1 extraction as a possibly-missing companion paper from the same lab (Thuret/Gain group, Jean Monnet University, Saint-Étienne) that produced PUBMED_1084 (Ben Moussa et al. 2024) and PUBMED_0981 (Aouimeur et al. 2026, "Super TEEKs" — confirmed via full-text read during Task #9 batch 3).
+
+**Decision: not added as a new Tier 1/Tier 2 corpus record.** Rationale: Crouzet 2022 is a surgical-technique/methods paper (detailed operative procedure and postoperative evaluation of the TEEK rabbit model), not a biomaterial characterization study — its results are graft adherence rate, clearing rate, and failure-cause analysis, with no optical transmittance, mechanical, or biological metric data of the kind this review's extraction template and benchmarking tables are built around. Forcing it into the template would produce a mostly-empty row.
+
+**Instead:** cited as background/methods precedent in the endothelium section narrative and discussion, alongside PUBMED_1084 and PUBMED_0981, to establish the fs-HALC (femtosecond-laser-cut anterior lens capsule) carrier lineage and the rabbit TEEK surgical model these two corpus records build on. This is a defensible, documented methodological exclusion (not a silent omission) — worth one sentence in the manuscript's Methods/search-strategy limitations if a reviewer might otherwise ask why a same-lab companion paper is absent from the extraction table.
 
 ## Databases and Search Strategy
 
