@@ -32,6 +32,23 @@ Findings this batch:
 
 For all three, the "mechanical" gap flagged in the gap-analysis table is now cross-verified as a genuine property of the source paper's abstract (no tensile/modulus data reported), not a missed extraction — noted directly in each record's `extraction_notes`. This is useful confirmation but not a tier upgrade, since it doesn't establish what (if anything) the full paywalled text contains beyond the abstract.
 
+## Batch 3 — user-supplied PDFs (2026-07-20)
+
+Samuel sourced 18 of the 22 requested PDFs via his own library access (4 confirmed paywalled even to him: PUBMED_0081, PUBMED_0151, PUBMED_0359, PUBMED_0649) and placed them in `Desktop/papers/`. Processed via the Read tool (bash/pdftotext repeatedly hit a filesystem lock on that mount — "Resource deadlock avoided" — so the Read tool was used directly on the Mac-side path instead).
+
+**11 records upgraded to `full_text_verified`** with real transcribed numbers: PUBMED_0056, PUBMED_0171, PUBMED_0241, PUBMED_0322, PUBMED_0398, PUBMED_0450, PUBMED_0469 (gap confirmed genuine), PUBMED_0477 (gap confirmed genuine), PUBMED_0530, PUBMED_0623, PUBMED_0646, PUBMED_0981. See `extraction_notes` per record for exact figures and sourcing.
+
+**Notable finding:** PUBMED_0981 is the Aouimeur et al. 2026 "Super TEEKs" paper (*Tissue Engineering Part A*) — confirms this record IS the companion paper flagged in Task #10, and its own reference list confirms the lineage Crouzet 2022 → Ben Moussa 2024 (PUBMED_1084, already in corpus) → Aouimeur 2026 (PUBMED_0981) as one continuous series from the Saint-Étienne BiiO lab (Gilles Thuret group).
+
+**3 records read but not upgraded**, to avoid transcribing imprecise numbers:
+- PUBMED_0690 (squid mantle) — full text reviewed, qualitative confirmation only (transparency achieved via CUBIC clearing, good biocompatibility); precise tensile/modulus figures not transcribed this pass.
+- PUBMED_0934 — full text reviewed (confirms it's a real paper — WebSearch had failed to locate it earlier); precise figures not transcribed this pass.
+- PUBMED_1015 — the PDF supplied was Supporting Information only, not the main manuscript. SI figures confirm optical transmittance and rheology data exist, but exact main-text values aren't in the SI.
+
+**1 record could not be processed:** PUBMED_0937 exceeds the 20MB PDF read limit.
+
+Net for Task #9: of the original 23 high-priority gap records, **12 are now genuinely `full_text_verified`** (PUBMED_0910 + 11 from this batch), 3 have abstract-level gaps confirmed as genuine paper limitations (not extraction misses), 4 are confirmed inaccessible even via Samuel's library access, 3 were read but held back from upgrade pending a precise-figures pass, and 1 (PUBMED_0937) needs a smaller file.
+
 ## Recommendation for continuing this task
 
 Given the mixed success rate (1 of 5 attempted this batch), the realistic expectation for the remaining ~18-19 high-priority records is similarly partial: some will be genuinely open access and reachable, many will be paywalled or blocked by reCAPTCHA. This should be treated as an ongoing best-effort pass across future live sessions, not a task that can be driven to 100% completion — and that limitation (some corpus records could not be independently full-text verified despite good-faith attempts) is itself legitimate to state plainly in the manuscript's Methods/Limitations section, consistent with the project's existing transparency approach (`evidence_verification_level` field, `20260720_tier1_quality_control_pass.md`).
