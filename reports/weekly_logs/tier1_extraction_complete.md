@@ -2,12 +2,13 @@
 
 **Date completed:** 2026-07-20
 **Status:** All 101 "Tier 1 - full extraction" records in `screening/full_text/pubmed_tier1_tier2_extraction_plan.csv` now have `extraction_status = completed` in `extraction/pubmed_balanced_core_data_extraction_template.csv`.
+**QC update (2026-07-20):** A manual quality-control pass (`20260720_tier1_quality_control_pass.md`) spot-checked accuracy (no fabrication found), added an `evidence_verification_level` column, and reclassified PUBMED_0672 as a non-primary-study background citation. **Corrected Tier 1 primary-study count: 100** (101 minus PUBMED_0672). See that report before treating this checkpoint's counts below as final - the layer/evidence breakdowns below were not recomputed after the QC pass.
 
 This checkpoint file exists so future scheduled runs of this task can confirm completion quickly and no-op without re-scanning the full corpus.
 
 ## Final counts
 
-- Tier 1 records total: 101
+- Tier 1 records total: 101 (100 primary studies + 1 reclassified narrative review, see QC update above)
 - Tier 1 records completed: 101 (100%)
 - Batches: 14 scheduled-task runs (batch 1 on 2026-07-19 through batch 14 on 2026-07-20); see `tier1_extraction_progress_log.md` in this directory for the full per-batch history.
 
