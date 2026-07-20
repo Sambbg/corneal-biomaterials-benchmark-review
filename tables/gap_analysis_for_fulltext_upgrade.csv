@@ -1,0 +1,41 @@
+screening_id,pmid,layer,benchmarking_relevance,evidence_verification_level,gaps,title
+PUBMED_0761,38486306,endothelium,high,abstract_only,optical;mechanical,Bioprinting of human pluripotent stem cell derived corneal endothelial cells with hydrazone crosslinked hyaluronic acid bioink.
+PUBMED_0910,40221533,endothelium,high,abstract_only,optical;mechanical,Tissue engineered corneal endothelium transplantation in an ex vivo human cornea organ culture model.
+PUBMED_0450,34330126,epithelium_limbus,high,abstract_only,optical;mechanical,Bioprinting of dual ECM scaffolds encapsulating limbal stem/progenitor cells in active and quiescent statuses.
+PUBMED_1015,41359360,multiple_layers,high,abstract_only,optical;mechanical,Alkaline Phosphatase-Triggered Spatiotemporal Repair of Corneal Injury with TB500 Peptide Hydrogel.
+PUBMED_0081,30066447,endothelium,high,abstract_only,mechanical,Ex Vivo Functionality of 3D Bioprinted Corneal Endothelium Engineered with Ribonuclease 5-Overexpressing Human Corneal Endothelial Cells.
+PUBMED_0151,30989737,endothelium,high,abstract_only,mechanical,Construction of a high cell density human corneal endothelial equivalent and its transplantation in primate models.
+PUBMED_0322,32805263,endothelium,high,abstract_only,mechanical,Tissue engineered ultra-thin descemet stripping corneal endothelial layers using porcine cornea and stem cells.
+PUBMED_0934,40446990,endothelium,high,abstract_only,mechanical,The interaction of the biocompatible scaffold containing nanochitosan-chitosan-polycaprolactone with telomerase activator and rock inhibitor in propagation and functional properties of corneal endothelial cells.
+PUBMED_0981,40986463,endothelium,high,abstract_only,mechanical,Tissue-Engineered Endothelial Keratoplasty with Controlled Cell Density: Toward Super TEEKs.
+PUBMED_0056,29691018,epithelium_limbus,high,abstract_only,mechanical,Carboxymethyl chitosan/gelatin/hyaluronic acid blended-membranes as epithelia transplanting scaffold for corneal wound healing.
+PUBMED_0241,31988856,epithelium_limbus,high,abstract_only,mechanical,Propagation of limbal stem cells on polycaprolactone and polycaprolactone/gelatin fibrous scaffolds and transplantation in animal model.
+PUBMED_0359,33210832,epithelium_limbus,high,abstract_only,mechanical,Transplantation of human corneal limbal epithelial cell sheet harvested on synthesized carboxymethyl cellulose and dopamine in a limbal stem cell deficiency.
+PUBMED_0477,34620226,epithelium_limbus,high,abstract_only,mechanical,Long-term survival of cultivated oral mucosal epithelial cells in human cornea: generating cell sheets using an animal product-free culture protocol.
+PUBMED_0623,36708851,epithelium_limbus,high,abstract_only,mechanical,Highly stable fibronectin-mimetic-peptide-based supramolecular hydrogel to accelerate corneal wound healing.
+PUBMED_0937,40451552,epithelium_limbus,high,abstract_only,mechanical,"Topical delivery of cultivated limbal stem cells via porous photocurable hydrogel: A noninvasive, convenient, and efficient stem cells delivery strategy for limbal stem cell deficiency."
+PUBMED_0690,37476050,stroma,high,abstract_only,mechanical,Decellularized squid mantle scaffolds as tissue-engineered corneal stroma for promoting corneal regeneration.
+PUBMED_0646,36989713,multiple_layers,high,abstract_only,mechanical,Successful restoration of corneal surface integrity with a tissue-engineered allogeneic implant in severe keratitis patients.
+PUBMED_0171,31258659,endothelium,high,abstract_only,optical,Ex vivo construction of rabbit corneal endothelial cell sheets on a porcine descemet membrane graft.
+PUBMED_0469,34552187,endothelium,high,abstract_only,optical,Optimization of polycaprolactone - based nanofiber matrices for the cultivation of corneal endothelial cells.
+PUBMED_0530,35229601,endothelium,high,abstract_only,optical,Tissue-Engineered Corneal Endothelial Sheets Using Ultrathin Acellular Porcine Corneal Stroma Substrates for Endothelial Keratoplasty.
+PUBMED_0649,37023465,endothelium,high,abstract_only,optical,In Vitro Profiling of the Extracellular Matrix and Integrins Expressed by Human Corneal Endothelial Cells Cultured on Silk Fibroin-Based Matrices.
+PUBMED_0398,33659091,stroma,high,abstract_only,optical,Quantitative measurement of mechanical properties in wound healing processes in a corneal stroma model by using vibrational optical coherence elastography (OCE).
+PUBMED_0688,37456580,stroma,high,abstract_only,optical,"A suture-free, shape self-adaptive and bioactive PEG-Lysozyme implant for Corneal stroma defect repair and rapid vision restoration."
+PUBMED_0224,31751429,endothelium,high,full_text_verified,mechanical,Treatment of corneal endothelial damage in a rabbit model with a bioengineered graft using human decellularized corneal lamina and cultured human corneal endothelium.
+PUBMED_0075,29998891,endothelium,high,abstract_plus_figures,optical,Constructing a Novel Three-Dimensional Biomimetic Corneal Endothelium Graft by Culturing Corneal Endothelium Cells on Compressed Collagen Gels.
+PUBMED_0270,32363924,endothelium,high,full_text_verified,optical,In Vitro Evaluation and Transplantation of Human Corneal Endothelial Cells Cultured on Biocompatible Carriers.
+PUBMED_0421,33939123,endothelium,medium-high,abstract_only,optical,Potential of a novel scaffold composed of human platelet lysate and fibrin for human corneal endothelial cells.
+PUBMED_0827,39386038,endothelium,medium,abstract_only,optical;mechanical,The time dependent influence of curvature and topography of biomaterials in the behavior of corneal endothelial cells.
+PUBMED_0131,30716697,epithelium_limbus,medium,abstract_only,optical;mechanical,Poly-l/dl-lactic acid films functionalized with collagen IV as carrier substrata for corneal epithelial stem cells.
+PUBMED_0602,36370413,epithelium_limbus,medium,abstract_only,optical;mechanical,An in vitro comparison of human corneal epithelial cell activity and inflammatory response on differently designed ocular amniotic membranes and a clinical case study.
+PUBMED_0626,36729619,stroma,medium,abstract_only,optical;mechanical,Intracorneal Implantation of 3D Bioprinted Scaffolds Containing Mesenchymal Stromal Cells Using Femtosecond-Laser-Assisted Intrastromal Keratoplasty.
+PUBMED_0032,29413615,endothelium,medium,abstract_only,mechanical,Functionalized silk fibroin film scaffold using β-Carotene for cornea endothelial cell regeneration.
+PUBMED_0826,39375390,epithelium_limbus,medium,abstract_only,mechanical,Bio-printing method as a novel approach to obtain a fibrin scaffold settled by limbal epithelial cells for corneal regeneration.
+PUBMED_1009,41218465,endothelium,medium,abstract_only,optical,Matrix stiffness modulates YAP-mediated glycolysis and proliferation in human corneal endothelial cells.
+PUBMED_0320,32781567,epithelium_limbus,medium,abstract_only,optical,Poly(ε-caprolactone) Titanium Dioxide and Cefuroxime Antimicrobial Scaffolds for Cultivation of Human Limbal Stem Cells.
+PUBMED_0601,36356877,stroma,medium,abstract_only,optical,Silk fibroin based interpenetrating network hydrogel for corneal stromal regeneration.
+PUBMED_0947,40613723,stroma,medium,abstract_only,optical,A graphene oxide/niobium carbide MXene composite-based functional nanocomposite scaffold for artificial corneas.
+PUBMED_0038,29495264,multiple_layers,medium,abstract_only,optical,Engineering of Corneal Tissue through an Aligned PVA/Collagen Composite Nanofibrous Electrospun Scaffold.
+PUBMED_0049,29637812,multiple_layers,medium,abstract_only,optical,Preserving Basement Membranes during Detachment of Cultivated Oral Mucosal Epithelial Cell Sheets for the Treatment of Total Bilateral Limbal Stem Cell Deficiency.
+PUBMED_0468,34537415,multiple_layers,medium,abstract_only,optical,Supramolecular host-guest hyaluronic acid hydrogels enhance corneal wound healing through dynamic spatiotemporal effects.
