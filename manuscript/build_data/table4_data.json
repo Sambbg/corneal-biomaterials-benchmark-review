@@ -1,0 +1,300 @@
+{
+ "clinical": [
+  {
+   "citekey": "Gao et al., 2024",
+   "layer": "Epithelium / Limbus",
+   "material": "cultured autologous oral mucosal epithelial cell sheet…",
+   "followup": "6 months (with interim assessments at 3 months)",
+   "readiness": "clinical (randomized comparative human trial)"
+  },
+  {
+   "citekey": "González-Gallardo et al., 2023",
+   "layer": "Multiple Layers / Full-Thickness",
+   "material": "NANOULCOR construct: nanostructured (compacted)…",
+   "followup": "2 years (minimum clinical follow-up reported);…",
+   "readiness": "early clinical (phase I-II clinical trial, interim…"
+  },
+  {
+   "citekey": "Kim et al., 2018c",
+   "layer": "Epithelium / Limbus",
+   "material": "cultured oral mucosal epithelial cell sheets (COMECs),…",
+   "followup": "6 months",
+   "readiness": "clinical (prospective clinical trial, NCT02149732)"
+  },
+  {
+   "citekey": "Ma et al., 2021",
+   "layer": "Epithelium / Limbus",
+   "material": "not applicable (no synthetic/biologic scaffold…",
+   "followup": "34 months (Case 1) and up to 4 years post-operatively…",
+   "readiness": "clinical (first-in-human, long-term case follow-up)"
+  },
+  {
+   "citekey": "Mao et al., 2023",
+   "layer": "Epithelium / Limbus",
+   "material": "three differently processed, commercially available…",
+   "followup": "1, 4, and 7 days (in vitro HCEC…",
+   "readiness": "early clinical (single case study) with supporting in…"
+  },
+  {
+   "citekey": "Tandon et al., 2024",
+   "layer": "Epithelium / Limbus",
+   "material": "two ex vivo tissue-engineered constructs compared…",
+   "followup": "6 months (assessments at baseline, day 1, 1 week, 2…",
+   "readiness": "clinical (prospective randomized controlled clinical…"
+  }
+ ],
+ "animal": [
+  {
+   "citekey": "Arnalich-Montiel et al., 2019",
+   "layer": "Endothelium",
+   "material": "human decellularized corneal stromal lamina, tested with various surface…",
+   "followup": "up to 4 weeks (rabbit model, post-DSAEK…"
+  },
+  {
+   "citekey": "Chi et al., 2025",
+   "layer": "Endothelium",
+   "material": "thermosensitive hydroxypropyl chitin/carboxymethyl chitosan (HPCH/CMCS)…",
+   "followup": "not specified numerically in abstract (described as…"
+  },
+  {
+   "citekey": "Kim et al., 2018b",
+   "layer": "Endothelium",
+   "material": "ribonuclease 5 (RNase 5)-overexpressing human corneal endothelial cells…",
+   "followup": "4 weeks (rabbit graft transplantation; clarity/edema…"
+  },
+  {
+   "citekey": "Kim et al., 2025",
+   "layer": "Endothelium",
+   "material": "decellularized porcine corneal extracellular matrix (dECM), compared using…",
+   "followup": "up to 14 days in vitro; 16 weeks in vivo (rabbit CED…"
+  },
+  {
+   "citekey": "Li et al., 2020",
+   "layer": "Endothelium",
+   "material": "fish-scale collagen membrane (FSCM)",
+   "followup": "not specified beyond implantation evaluation; rabbit…"
+  },
+  {
+   "citekey": "Lu et al., 2020",
+   "layer": "Endothelium",
+   "material": "porcine Descemet's membrane (DM), decellularized and DNA-depleted via…",
+   "followup": "98 days post-transplantation (feline DMEK in vivo…"
+  },
+  {
+   "citekey": "Montalvo-Parra et al., 2022",
+   "layer": "Endothelium",
+   "material": "collagen type I vitrigel membrane (CVM); three thickness variants by…",
+   "followup": "pilot/short-term; exact duration not specified in…"
+  },
+  {
+   "citekey": "Song et al., 2022",
+   "layer": "Endothelium",
+   "material": "ECM-PLCL: poly(lactide-co-caprolactone) (PLCL) coupled with decellularized…",
+   "followup": "14 days (in vitro phenotype/cell-junction…"
+  },
+  {
+   "citekey": "Zhang et al., 2022",
+   "layer": "Endothelium",
+   "material": "ultrathin (20 micron) acellular porcine corneal stroma (APCS) lamellae,…",
+   "followup": "5 days (monolayer formation) and 14 days…"
+  },
+  {
+   "citekey": "Zhao et al., 2019",
+   "layer": "Endothelium",
+   "material": "modified denuded amniotic membrane (mdAM) seeded with DiI-labeled…",
+   "followup": "181 days (non-human primate/monkey penetrating…"
+  },
+  {
+   "citekey": "Zhao et al., 2022",
+   "layer": "Endothelium",
+   "material": "modified crosslinked denuded amniotic membrane (mcdAM): corneal…",
+   "followup": "not specified numerically in abstract; TE-HCE…"
+  },
+  {
+   "citekey": "Chen et al., 2026",
+   "layer": "Epithelium / Limbus",
+   "material": "polyethylene glycol diacrylate (PEGDA), microstereolithography-printed…",
+   "followup": "not specified numerically in the retrieved abstract"
+  },
+  {
+   "citekey": "Guo et al., 2025",
+   "layer": "Epithelium / Limbus",
+   "material": "porous Gelatin Methacryloyl (GelMA, referred to as 'PG') hydrogel,…",
+   "followup": "not specified numerically in the retrieved abstract"
+  },
+  {
+   "citekey": "Hu et al., 2023",
+   "layer": "Epithelium / Limbus",
+   "material": "naphthalene-conjugated fibronectin-mimetic peptide amphiphiles…",
+   "followup": "not specified numerically in abstract (in vivo corneal…"
+  },
+  {
+   "citekey": "Lee et al., 2018",
+   "layer": "Epithelium / Limbus",
+   "material": "human amniotic membrane (HAM) in two configurations -- HAM sutured onto…",
+   "followup": "not specified numerically in abstract (post-transplant…"
+  },
+  {
+   "citekey": "Lee et al., 2021",
+   "layer": "Epithelium / Limbus",
+   "material": "synthesized carboxymethyl cellulose-dopamine (CMC-DA) coating used as a…",
+   "followup": "2 weeks (rabbit LSCD model, post-transplantation)"
+  },
+  {
+   "citekey": "Sanie-Jahromi et al., 2020",
+   "layer": "Epithelium / Limbus",
+   "material": "electrospun polycaprolactone (PCL) nanofibers and PCL/gelatin (PCL/Gel)…",
+   "followup": "not specified numerically in abstract"
+  },
+  {
+   "citekey": "Wang et al., 2025",
+   "layer": "Epithelium / Limbus",
+   "material": "collagen membrane (custom-made, curved) as the bioprinting…",
+   "followup": "not specified numerically in the retrieved (truncated)…"
+  },
+  {
+   "citekey": "Wei et al., 2025",
+   "layer": "Epithelium / Limbus",
+   "material": "aldehyde-modified oxidized guar gum (OGG) crosslinked with carboxymethyl…",
+   "followup": "not specified numerically in abstract"
+  },
+  {
+   "citekey": "Xu et al., 2018",
+   "layer": "Epithelium / Limbus",
+   "material": "carboxymethyl chitosan (CMCTS), gelatin, and hyaluronic acid (HA) blended…",
+   "followup": "not specified numerically in abstract (in vivo healing…"
+  },
+  {
+   "citekey": "Xu et al., 2019",
+   "layer": "Epithelium / Limbus",
+   "material": "carboxymethyl chitosan crosslinked with sodium alginate dialdehyde (SAD,…",
+   "followup": "not specified numerically in abstract"
+  },
+  {
+   "citekey": "Yang et al., 2018",
+   "layer": "Epithelium / Limbus",
+   "material": "decellularized murine corneas recellularized with human embryonic stem…",
+   "followup": "not specified numerically in abstract…"
+  },
+  {
+   "citekey": "Agrawal et al., 2024",
+   "layer": "Multiple Layers / Full-Thickness",
+   "material": "Kuragel: functionalized gelatin and hyaluronic acid combined to form a…",
+   "followup": "1 month (re-epithelialization); 3 months (stromal and…"
+  },
+  {
+   "citekey": "Deng et al., 2025",
+   "layer": "Multiple Layers / Full-Thickness",
+   "material": "GOC hydrogel: gelatin methacryloyl (GelMA), oxidized hyaluronic acid…",
+   "followup": "not specified numerically in abstract (large corneal…"
+  },
+  {
+   "citekey": "Fernandes-Cunha et al., 2022",
+   "layer": "Multiple Layers / Full-Thickness",
+   "material": "hyaluronic acid (HA)-based supramolecular hydrogel formed via non-covalent…",
+   "followup": "not specified numerically in abstract (in vivo corneal…"
+  },
+  {
+   "citekey": "Li et al., 2025",
+   "layer": "Multiple Layers / Full-Thickness",
+   "material": "GelMA/OCS hydrogel: gelatin methacryloyl (GelMA) combined with oxidized…",
+   "followup": "not specified numerically in abstract (rabbit large…"
+  },
+  {
+   "citekey": "Lu et al., 2025",
+   "layer": "Multiple Layers / Full-Thickness",
+   "material": "Nap-YpYY-TB500: naphthalene-capped, phosphorylated peptide precursor…",
+   "followup": "not specified numerically in abstract (alkali burn…"
+  },
+  {
+   "citekey": "Mölzer et al., 2019",
+   "layer": "Multiple Layers / Full-Thickness",
+   "material": "recombinant human collagen III hydrogels crosslinked with two different…",
+   "followup": "not specified numerically in the retrieved abstract…"
+  },
+  {
+   "citekey": "Chen et al., 2022",
+   "layer": "Stroma",
+   "material": "collagen type I crosslinked with bifunctional polyethylene glycol (PEG)…",
+   "followup": "7 days (rabbit anterior lamellar keratectomy in vivo…"
+  },
+  {
+   "citekey": "Fernandes-Cunha et al., 2020",
+   "layer": "Stroma",
+   "material": "collagen type I hydrogel crosslinked in situ via multi-functional…",
+   "followup": "not specified numerically in abstract (in vivo rabbit…"
+  },
+  {
+   "citekey": "Fernández-Pérez et al., 2021",
+   "layer": "Stroma",
+   "material": "decellularized porcine corneal lenticules (250 micron thick), tested as…",
+   "followup": "14 days + 14 days (in vitro recellularization culture…"
+  },
+  {
+   "citekey": "Hashimoto et al., 2024",
+   "layer": "Stroma",
+   "material": "porcine cornea decellularized by a modified high hydrostatic pressure…",
+   "followup": "4 weeks (rabbit interlamellar keratoplasty in vivo…"
+  },
+  {
+   "citekey": "Kang et al., 2023",
+   "layer": "Stroma",
+   "material": "decellularized squid mantle scaffold (DSMS), decellularized using 0.5%…",
+   "followup": "not specified numerically in the retrieved abstract"
+  },
+  {
+   "citekey": "Kim et al., 2019",
+   "layer": "Stroma",
+   "material": "corneal stroma-derived decellularized extracellular matrix (dECM) bioink",
+   "followup": "4 weeks in vivo"
+  },
+  {
+   "citekey": "Peng et al., 2025",
+   "layer": "Stroma",
+   "material": "graphene oxide (GO) / niobium carbide MXene (Nb2C) composite nanocomposite…",
+   "followup": "not specified numerically in abstract (described only…"
+  },
+  {
+   "citekey": "Su et al., 2025",
+   "layer": "Stroma",
+   "material": "decellularized human corneal stromal lenticules (donor-derived, from…",
+   "followup": "over 35 days (in vitro sustained drug release); more…"
+  },
+  {
+   "citekey": "Xeroudaki et al., 2020",
+   "layer": "Stroma",
+   "material": "porous collagen-based hydrogel designed to replace a substantial portion…",
+   "followup": "6 months (in vivo human corneal surgery model,…"
+  },
+  {
+   "citekey": "Xeroudaki et al., 2023",
+   "layer": "Stroma",
+   "material": "porcine skin collagen hydrogel reinforced with cellulose nanofibers…",
+   "followup": "60 days (in vitro sustained dexamethasone release); 8…"
+  },
+  {
+   "citekey": "Xie et al., 2021",
+   "layer": "Stroma",
+   "material": "allogeneic cornea-derived matrix (ACM) fabricated from human corneal…",
+   "followup": "not specified numerically in abstract (in vivo rabbit…"
+  },
+  {
+   "citekey": "Yin et al., 2025",
+   "layer": "Stroma",
+   "material": "decellularized swim bladder collagen matrix (SBCM) scaffold,…",
+   "followup": "not specified numerically in abstract (subcutaneous…"
+  },
+  {
+   "citekey": "Zhao et al., 2025",
+   "layer": "Stroma",
+   "material": "humanized corneal stroma-like adhesive patches (HCSPs): polyethylene…",
+   "followup": "not specified numerically in abstract (rabbit lamellar…"
+  },
+  {
+   "citekey": "Zhou et al., 2023",
+   "layer": "Stroma",
+   "material": "PEG-Lysozyme hydrogel formed via in situ amidation reaction between 4-arm…",
+   "followup": "not specified numerically in abstract (rabbit lamellar…"
+  }
+ ]
+}

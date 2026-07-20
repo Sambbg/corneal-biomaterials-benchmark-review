@@ -1,0 +1,810 @@
+{
+ "Endothelium": [
+  {
+   "citekey": "An et al., 2020",
+   "material": "ultra-thin decellularized porcine Descemet stripping (DS) scaffold…",
+   "optical": "Y",
+   "mechanical": "?",
+   "model": "In vitro only",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Aouimeur et al., 2025",
+   "material": "femtosecond-laser-cut lens capsule disc used as bioengineering…",
+   "optical": "Y",
+   "mechanical": "N",
+   "model": "In vitro only",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Arnalich-Montiel et al., 2019",
+   "material": "human decellularized corneal stromal lamina, tested with various…",
+   "optical": "Y",
+   "mechanical": "?",
+   "model": "Animal, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Ben Moussa et al., 2024",
+   "material": "human anterior lens capsule, femtosecond-laser cut into 8 mm discs",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AF"
+  },
+  {
+   "citekey": "Bosch et al., 2024",
+   "material": "collagen hydrogels formed as curved (concave and convex) constructs…",
+   "optical": "?",
+   "mechanical": "?",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Cen & Feng, 2018",
+   "material": "laminin-coated compressed collagen (CC) gel",
+   "optical": "?",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AF"
+  },
+  {
+   "citekey": "Chen et al., 2025",
+   "material": "human acellular amniotic membrane (HAAM), coated with fibronectin…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Chi et al., 2025",
+   "material": "thermosensitive hydroxypropyl chitin/carboxymethyl chitosan…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Erkoc-Biradli et al., 2021",
+   "material": "polyacrylamide (PA) hydrogel substrates, microfabricated with…",
+   "optical": "N",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Grönroos et al., 2024",
+   "material": "hydrazone crosslinked hyaluronic acid (HA) bioink, optimized for…",
+   "optical": "?",
+   "mechanical": "?",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Hazra et al., 2023",
+   "material": "Philosamia ricini (PR) and Antheraea assamensis (AA) non-mulberry…",
+   "optical": "?",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Hazra et al., 2025",
+   "material": "silk fibroin protein extracted from Antheraea assamensis (muga)…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Himmler et al., 2021",
+   "material": "polycaprolactone (PCL) alone and blended with collagen, gelatin, or…",
+   "optical": "?",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Kim et al., 2018a",
+   "material": "silk fibroin (SF) film incorporated with beta-Carotene (beta-C)",
+   "optical": "Y",
+   "mechanical": "?",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Kim et al., 2018b",
+   "material": "ribonuclease 5 (RNase 5)-overexpressing human corneal endothelial…",
+   "optical": "P",
+   "mechanical": "?",
+   "model": "Animal, Ex vivo",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Kim et al., 2025",
+   "material": "decellularized porcine corneal extracellular matrix (dECM), compared…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Kruse et al., 2018",
+   "material": "poly(methyl-methacrylate) (PMMA), poly(lactic-co-glycolic acid)…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Li et al., 2020",
+   "material": "fish-scale collagen membrane (FSCM)",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Liu et al., 2019",
+   "material": "porcine Descemet membrane (DM) carrier combined with cultured rabbit…",
+   "optical": "?",
+   "mechanical": "Y",
+   "model": "Ex vivo, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Lu et al., 2020",
+   "material": "porcine Descemet's membrane (DM), decellularized and DNA-depleted…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Mishan et al., 2022",
+   "material": "human platelet lysate (HPL) / fibrin blended scaffold at three…",
+   "optical": "?",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Montalvo-Parra et al., 2022",
+   "material": "collagen type I vitrigel membrane (CVM); three thickness variants by…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Seow et al., 2019",
+   "material": "agarose (A) modified with four attachment signals: GRGD peptide…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Song et al., 2022",
+   "material": "ECM-PLCL: poly(lactide-co-caprolactone) (PLCL) coupled with…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Song et al., 2024",
+   "material": "alginate hydrogel (AH) physically integrated with human…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Spinozzi et al., 2020",
+   "material": "human anterior lens capsule (HALC), LinkCell(TM) bioengineered…",
+   "optical": "?",
+   "mechanical": "P",
+   "model": "Ex vivo, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Tayebi et al., 2025",
+   "material": "scaffold containing chitosan nanoparticles, chitosan, and…",
+   "optical": "Y",
+   "mechanical": "?",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Tsai et al., 2025",
+   "material": "Real Architecture For 3D Tissues (RAFT) -- a plastic-compressed…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Ex vivo, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Wang et al., 2019",
+   "material": "chitosan/polycaprolactone (PCL) blend, PCL25 (25% PCL by weight)",
+   "optical": "N",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Zhang et al., 2022",
+   "material": "ultrathin (20 micron) acellular porcine corneal stroma (APCS)…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Zhao et al., 2019",
+   "material": "modified denuded amniotic membrane (mdAM) seeded with DiI-labeled…",
+   "optical": "Y",
+   "mechanical": "?",
+   "model": "Animal, Ex vivo",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Zhao et al., 2022",
+   "material": "modified crosslinked denuded amniotic membrane (mcdAM): corneal…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Zhong et al., 2026",
+   "material": "polyacrylamide hydrogels fabricated at three defined stiffnesses…",
+   "optical": "?",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  }
+ ],
+ "Epithelium / Limbus": [
+  {
+   "citekey": "Aghazadeh et al., 2025",
+   "material": "fibronectin (FN) coating applied at 3, 5, and 8 micrograms/cm2…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Anton-Sales et al., 2021",
+   "material": "bacterial nanocellulose (BNC), surface-functionalized via plasma…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Bedard et al., 2026",
+   "material": "decellularized human Descemet membrane (DM) compared against…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Ex vivo",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Chen et al., 2026",
+   "material": "polyethylene glycol diacrylate (PEGDA),…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Gao et al., 2024",
+   "material": "cultured autologous oral mucosal epithelial cell sheet (CAOMECS);…",
+   "optical": "Y",
+   "mechanical": "N",
+   "model": "Clinical",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Guo et al., 2025",
+   "material": "porous Gelatin Methacryloyl (GelMA, referred to as 'PG') hydrogel,…",
+   "optical": "N",
+   "mechanical": "?",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Hu et al., 2023",
+   "material": "naphthalene-conjugated fibronectin-mimetic peptide amphiphiles…",
+   "optical": "N",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Kim et al., 2018c",
+   "material": "cultured oral mucosal epithelial cell sheets (COMECs), prepared in a…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "Clinical, Ex vivo",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Lee et al., 2018",
+   "material": "human amniotic membrane (HAM) in two configurations -- HAM sutured…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "Animal, Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Lee et al., 2021",
+   "material": "synthesized carboxymethyl cellulose-dopamine (CMC-DA) coating used…",
+   "optical": "Y",
+   "mechanical": "?",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Ma et al., 2021",
+   "material": "not applicable (no synthetic/biologic scaffold material used);…",
+   "optical": "Y",
+   "mechanical": "N",
+   "model": "Clinical",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Mahmood et al., 2023",
+   "material": "electrospun polycaprolactone (PCL)/gelatin blend nanofibers at…",
+   "optical": "N",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Mahmood et al., 2026",
+   "material": "electrospun Poly Lactide-co-Glycolic Acid (PLGA) scaffold,…",
+   "optical": "Y",
+   "mechanical": "N",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Mao et al., 2023",
+   "material": "three differently processed, commercially available human amniotic…",
+   "optical": "?",
+   "mechanical": "?",
+   "model": "Clinical, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Narwani et al., 2021",
+   "material": "rabbit buccal oral mucosal epithelial cells cultured on a…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Patil et al., 2019",
+   "material": "human dental pulp stem cells (DPSCs) cultured in limbal stem cell…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Pietryga et al., 2024",
+   "material": "flat, transparent fibrin substrate, 0.5 mm thick",
+   "optical": "Y",
+   "mechanical": "?",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Pourjabbar et al., 2024",
+   "material": "collagen/silk fibroin (Co/SF) scaffold loaded with Platelet-Rich…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Sanie-Jahromi et al., 2020",
+   "material": "electrospun polycaprolactone (PCL) nanofibers and PCL/gelatin…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Sun et al., 2020",
+   "material": "hierarchical collagen-polycaprolactone (Col-PCL) membrane:…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Sánchez-Porras et al., 2021",
+   "material": "decellularized full-thickness and half-thickness porcine corneal…",
+   "optical": "Y",
+   "mechanical": "N",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Tan et al., 2025",
+   "material": "decellularized human amniotic membrane hydrogel (dAM-gel), produced…",
+   "optical": "N",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Tandon et al., 2024",
+   "material": "two ex vivo tissue-engineered constructs compared head-to-head:…",
+   "optical": "P",
+   "mechanical": "N",
+   "model": "Clinical, Ex vivo",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Tominac Trcin et al., 2020",
+   "material": "electrospun poly(epsilon-caprolactone) (PCL) scaffolds…",
+   "optical": "?",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Venugopal et al., 2020",
+   "material": "rabbit peripheral blood-derived mononuclear cells (PBMNCs)…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Wang et al., 2025",
+   "material": "collagen membrane (custom-made, curved) as the bioprinting…",
+   "optical": "N",
+   "mechanical": "N",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Wei et al., 2025",
+   "material": "aldehyde-modified oxidized guar gum (OGG) crosslinked with…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Xu et al., 2018",
+   "material": "carboxymethyl chitosan (CMCTS), gelatin, and hyaluronic acid (HA)…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Xu et al., 2019",
+   "material": "carboxymethyl chitosan crosslinked with sodium alginate dialdehyde…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Yang et al., 2018",
+   "material": "decellularized murine corneas recellularized with human embryonic…",
+   "optical": "Y",
+   "mechanical": "N",
+   "model": "Animal, Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Zdraveva et al., 2023",
+   "material": "melt electrospun polylactic acid (PLA), PLA modified with silk…",
+   "optical": "N",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Zhong et al., 2021",
+   "material": "gelatin methacrylate (GelMA) and hyaluronic acid glycidyl…",
+   "optical": "?",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "FT"
+  },
+  {
+   "citekey": "de la Mata et al., 2019",
+   "material": "poly-L/DL-lactic acid 70:30 (PLA) films functionalized with type IV…",
+   "optical": "?",
+   "mechanical": "?",
+   "model": "In vitro only",
+   "ev": "AO"
+  }
+ ],
+ "Stroma": [
+  {
+   "citekey": "Bhattacharjee & Ahearne, 2022",
+   "material": "silk fibroin (SF) / polyacrylamide (PA) semi-interpenetrating…",
+   "optical": "?",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Bhattacharjee et al., 2023",
+   "material": "oxygen-plasma surface-modified, aligned poly-epsilon-caprolactone…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Boix-Lemonche et al., 2023",
+   "material": "3D-bioprinted hydrogel constructs loaded with mesenchymal stromal…",
+   "optical": "?",
+   "mechanical": "?",
+   "model": "Ex vivo",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Chand et al., 2025",
+   "material": "gelatin methacryloyl (GelMA) / oxidized carboxymethyl cellulose…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Chen et al., 2022",
+   "material": "collagen type I crosslinked with bifunctional polyethylene glycol…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Fernandes-Cunha et al., 2020",
+   "material": "collagen type I hydrogel crosslinked in situ via multi-functional…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Fernández-Pérez et al., 2020",
+   "material": "decellularized porcine corneal sheets (cryosectioned lenticules,…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Fernández-Pérez et al., 2021",
+   "material": "decellularized porcine corneal lenticules (250 micron thick), tested…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Hashimoto et al., 2024",
+   "material": "porcine cornea decellularized by a modified high hydrostatic…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Jiang et al., 2023",
+   "material": "composite hydrogel with a sodium alginate (SA) fiber skeleton (for…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Kang et al., 2023",
+   "material": "decellularized squid mantle scaffold (DSMS), decellularized using…",
+   "optical": "Y",
+   "mechanical": "?",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Kim et al., 2019",
+   "material": "corneal stroma-derived decellularized extracellular matrix (dECM)…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Peng et al., 2025",
+   "material": "graphene oxide (GO) / niobium carbide MXene (Nb2C) composite…",
+   "optical": "?",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Puistola et al., 2024",
+   "material": "human adipose stem cell-derived corneal stromal keratocyte…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "AF"
+  },
+  {
+   "citekey": "Samarawickrama et al., 2018",
+   "material": "collagen-like peptide conjugated to polyethylene glycol (CLP-PEG)…",
+   "optical": "N",
+   "mechanical": "Y",
+   "model": "Ex vivo",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Su et al., 2025",
+   "material": "decellularized human corneal stromal lenticules (donor-derived, from…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Xeroudaki et al., 2020",
+   "material": "porous collagen-based hydrogel designed to replace a substantial…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Xeroudaki et al., 2023",
+   "material": "porcine skin collagen hydrogel reinforced with cellulose nanofibers…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Xie et al., 2021",
+   "material": "allogeneic cornea-derived matrix (ACM) fabricated from human corneal…",
+   "optical": "Y",
+   "mechanical": "P",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Yin et al., 2025",
+   "material": "decellularized swim bladder collagen matrix (SBCM) scaffold,…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Zhang et al., 2021",
+   "material": "collagen hydrogel (3.0 mg/mL collagen concentration) incorporating…",
+   "optical": "?",
+   "mechanical": "Y",
+   "model": "In vitro only",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Zhao et al., 2025",
+   "material": "humanized corneal stroma-like adhesive patches (HCSPs): polyethylene…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Zhou et al., 2023",
+   "material": "PEG-Lysozyme hydrogel formed via in situ amidation reaction between…",
+   "optical": "?",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  }
+ ],
+ "Multiple Layers / Full-Thickness": [
+  {
+   "citekey": "Agrawal et al., 2024",
+   "material": "Kuragel: functionalized gelatin and hyaluronic acid combined to form…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Deng et al., 2025",
+   "material": "GOC hydrogel: gelatin methacryloyl (GelMA), oxidized hyaluronic acid…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Fernandes-Cunha et al., 2022",
+   "material": "hyaluronic acid (HA)-based supramolecular hydrogel formed via…",
+   "optical": "?",
+   "mechanical": "P",
+   "model": "Animal, Ex vivo",
+   "ev": "AO"
+  },
+  {
+   "citekey": "González-Gallardo et al., 2023",
+   "material": "NANOULCOR construct: nanostructured (compacted) fibrin-agarose…",
+   "optical": "P",
+   "mechanical": "P",
+   "model": "Clinical",
+   "ev": "FT"
+  },
+  {
+   "citekey": "Li et al., 2025",
+   "material": "GelMA/OCS hydrogel: gelatin methacryloyl (GelMA) combined with…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Lu et al., 2025",
+   "material": "Nap-YpYY-TB500: naphthalene-capped, phosphorylated peptide precursor…",
+   "optical": "?",
+   "mechanical": "?",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Mölzer et al., 2019",
+   "material": "recombinant human collagen III hydrogels crosslinked with two…",
+   "optical": "Y",
+   "mechanical": "N",
+   "model": "Animal, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Polisetti et al., 2021",
+   "material": "human donor corneal extracellular matrix (ECM) scaffold,…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Rovere et al., 2018",
+   "material": "cultured oral mucosal epithelium (COME) cell sheets, detached from…",
+   "optical": "?",
+   "mechanical": "P",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Wu et al., 2018",
+   "material": "aligned polyvinyl alcohol (PVA) / collagen (PVA-COL) composite…",
+   "optical": "?",
+   "mechanical": "P",
+   "model": "In vitro only",
+   "ev": "AO"
+  },
+  {
+   "citekey": "Zhang et al., 2019",
+   "material": "anterior acellular porcine corneal matrix (AAPCM), compared against…",
+   "optical": "Y",
+   "mechanical": "Y",
+   "model": "Ex vivo, +In vitro",
+   "ev": "AO"
+  }
+ ]
+}

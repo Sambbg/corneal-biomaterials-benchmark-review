@@ -1,0 +1,911 @@
+{
+ "29176452": {
+  "screening_id": "PUBMED_0016",
+  "citekey": "Samarawickrama et al., 2018",
+  "authorString": "Samarawickrama C, Samanta A, Liszka A, Fagerholm P, Buznyk O, Griffith M, Allan B.",
+  "title": "Collagen-Based Fillers as Alternatives to Cyanoacrylate Glue for the Sealing of Large Corneal Perforations.",
+  "journal": "Cornea",
+  "year": "2018",
+  "doi": "10.1097/ICO.0000000000001459"
+ },
+ "29495264": {
+  "screening_id": "PUBMED_0038",
+  "citekey": "Wu et al., 2018",
+  "authorString": "Wu Z, Kong B, Liu R, Sun W, Mi S.",
+  "title": "Engineering of Corneal Tissue through an Aligned PVA/Collagen Composite Nanofibrous Electrospun Scaffold.",
+  "journal": "Nanomaterials (Basel, Switzerland)",
+  "year": "2018",
+  "doi": "10.3390/nano8020124"
+ },
+ "29637812": {
+  "screening_id": "PUBMED_0049",
+  "citekey": "Rovere et al., 2018",
+  "authorString": "Rovere MR, Rousselle P, Haftek M, Charleux B, Kocaba V, Auxenfans C, Nataf S, Damour O.",
+  "title": "Preserving Basement Membranes during Detachment of Cultivated Oral Mucosal Epithelial Cell Sheets for the Treatment of Total Bilateral Limbal Stem Cell Deficiency.",
+  "journal": "Cell transplantation",
+  "year": "2018",
+  "doi": "10.1177/0963689717741140"
+ },
+ "30323996": {
+  "screening_id": "PUBMED_0104",
+  "citekey": "Yang et al., 2018",
+  "authorString": "Yang J, Park JW, Zheng D, Xu RH.",
+  "title": "Universal Corneal Epithelial-Like Cells Derived from Human Embryonic Stem Cells for Cellularization of a Corneal Scaffold.",
+  "journal": "Translational vision science & technology",
+  "year": "2018",
+  "doi": "10.1167/tvst.7.5.23"
+ },
+ "30918800": {
+  "screening_id": "PUBMED_0144",
+  "citekey": "Zhang et al., 2019",
+  "authorString": "Zhang K, Ren XX, Li P, Pang KP, Wang H.",
+  "title": "Construction of a full-thickness human corneal substitute from anterior acellular porcine corneal matrix and human corneal cells.",
+  "journal": "International journal of ophthalmology",
+  "year": "2019",
+  "doi": "10.18240/ijo.2019.03.01"
+ },
+ "30938102": {
+  "screening_id": "PUBMED_0145",
+  "citekey": "Mölzer et al., 2019",
+  "authorString": "Mölzer C, Shankar SP, Masalski V, Griffith M, Kuffová L, Forrester JV.",
+  "title": "TGF-β1-activated type 2 dendritic cells promote wound healing and induce fibroblasts to express tenascin c following corneal full-thickness hydrogel transplantation.",
+  "journal": "Journal of tissue engineering and regenerative medicine",
+  "year": "2019",
+  "doi": "10.1002/term.2853"
+ },
+ "30989737": {
+  "screening_id": "PUBMED_0151",
+  "citekey": "Zhao et al., 2019",
+  "authorString": "Zhao J, Fan T, Ma X, Hu X.",
+  "title": "Construction of a high cell density human corneal endothelial equivalent and its transplantation in primate models.",
+  "journal": "Xenotransplantation",
+  "year": "2019",
+  "doi": "10.1111/xen.12514"
+ },
+ "30995622": {
+  "screening_id": "PUBMED_0152",
+  "citekey": "Kim et al., 2019",
+  "authorString": "Kim H, Jang J, Park J, Lee KP, Lee S, Lee DM, Kim KH, Kim HK, Cho DW.",
+  "title": "Shear-induced alignment of collagen fibrils using 3D cell printing for corneal stroma tissue engineering.",
+  "journal": "Biofabrication",
+  "year": "2019",
+  "doi": "10.1088/1758-5090/ab1a8b"
+ },
+ "31751429": {
+  "screening_id": "PUBMED_0224",
+  "citekey": "Arnalich-Montiel et al., 2019",
+  "authorString": "Arnalich-Montiel F, Moratilla A, Fuentes-Julián S, Aparicio V, Cadenas Martin M, Peh G, Mehta JS, Adnan K, Porrua L, Pérez-Sarriegui A, De Miguel MP.",
+  "title": "Treatment of corneal endothelial damage in a rabbit model with a bioengineered graft using human decellularized corneal lamina and cultured human corneal endothelium.",
+  "journal": "PloS one",
+  "year": "2019",
+  "doi": "10.1371/journal.pone.0225480"
+ },
+ "31956817": {
+  "screening_id": "PUBMED_0240",
+  "citekey": "Sun et al., 2020",
+  "authorString": "Sun X, Yang X, Song W, Ren L.",
+  "title": "Construction and Evaluation of Collagen-Based Corneal Grafts Using Polycaprolactone To Improve Tension Stress.",
+  "journal": "ACS omega",
+  "year": "2020",
+  "doi": "10.1021/acsomega.9b03297"
+ },
+ "32363924": {
+  "screening_id": "PUBMED_0270",
+  "citekey": "Spinozzi et al., 2020",
+  "authorString": "Spinozzi D, Miron A, Lie JT, Rafat M, Lagali N, Melles GRJ, Dhubhghaill SN, Dapena I, Oellerich S.",
+  "title": "In Vitro Evaluation and Transplantation of Human Corneal Endothelial Cells Cultured on Biocompatible Carriers.",
+  "journal": "Cell transplantation",
+  "year": "2020",
+  "doi": "10.1177/0963689720923577"
+ },
+ "32368948": {
+  "screening_id": "PUBMED_0273",
+  "citekey": "Fernández-Pérez et al., 2020",
+  "authorString": "Fernández-Pérez J, Madden PW, Ahearne M.",
+  "title": "Engineering a Corneal Stromal Equivalent Using a Novel Multilayered Fabrication Assembly Technique.",
+  "journal": "Tissue engineering. Part A",
+  "year": "2020",
+  "doi": "10.1089/ten.TEA.2020.0019"
+ },
+ "33028837": {
+  "screening_id": "PUBMED_0344",
+  "citekey": "Fernandes-Cunha et al., 2020",
+  "authorString": "Fernandes-Cunha GM, Chen KM, Chen F, Le P, Han JH, Mahajan LA, Lee HJ, Na KS, Myung D.",
+  "title": "In situ-forming collagen hydrogel crosslinked via multi-functional PEG as a matrix therapy for corneal defects.",
+  "journal": "Scientific reports",
+  "year": "2020",
+  "doi": "10.1038/s41598-020-72978-5"
+ },
+ "33037282": {
+  "screening_id": "PUBMED_0346",
+  "citekey": "Xeroudaki et al., 2020",
+  "authorString": "Xeroudaki M, Thangavelu M, Lennikov A, Ratnayake A, Bisevac J, Petrovski G, Fagerholm P, Rafat M, Lagali N.",
+  "title": "A porous collagen-based hydrogel and implantation method for corneal stromal regeneration and sustained local drug delivery.",
+  "journal": "Scientific reports",
+  "year": "2020",
+  "doi": "10.1038/s41598-020-73730-9"
+ },
+ "33542377": {
+  "screening_id": "PUBMED_0387",
+  "citekey": "Polisetti et al., 2021",
+  "authorString": "Polisetti N, Schmid A, Schlötzer-Schrehardt U, Maier P, Lang SJ, Steinberg T, Schlunck G, Reinhard T.",
+  "title": "A decellularized human corneal scaffold for anterior corneal surface reconstruction.",
+  "journal": "Scientific reports",
+  "year": "2021",
+  "doi": "10.1038/s41598-021-82678-3"
+ },
+ "33545838": {
+  "screening_id": "PUBMED_0388",
+  "citekey": "Xie et al., 2021",
+  "authorString": "Xie L, Ouyang C, Ji J, Wu J, Dong X, Hou C, Huang T.",
+  "title": "Construction of bioengineered corneal stromal implants using an allogeneic cornea-derived matrix.",
+  "journal": "Materials science & engineering. C, Materials for biological applications",
+  "year": "2021",
+  "doi": "10.1016/j.msec.2020.111673"
+ },
+ "33586332": {
+  "screening_id": "PUBMED_0392",
+  "citekey": "Anton-Sales et al., 2021",
+  "authorString": "Anton-Sales I, Koivusalo L, Skottman H, Laromaine A, Roig A.",
+  "title": "Limbal Stem Cells on Bacterial Nanocellulose Carriers for Ocular Surface Regeneration.",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "year": "2021",
+  "doi": "10.1002/smll.202003937"
+ },
+ "33659091": {
+  "screening_id": "PUBMED_0398",
+  "citekey": "Zhang et al., 2021",
+  "authorString": "Zhang Y, Ling Y, Zhang D, Wang M, Purslow C, Yang Y, Li C, Huang Z, Huang Z.",
+  "title": "Quantitative measurement of mechanical properties in wound healing processes in a corneal stroma model by using vibrational optical coherence elastography (OCE).",
+  "journal": "Biomedical optics express",
+  "year": "2021",
+  "doi": "10.1364/BOE.404096"
+ },
+ "34061862": {
+  "screening_id": "PUBMED_0430",
+  "citekey": "Fernández-Pérez et al., 2021",
+  "authorString": "Fernández-Pérez J, Madden PW, Brady RT, Nowlan PF, Ahearne M.",
+  "title": "The effect of prior long-term recellularization with keratocytes of decellularized porcine corneas implanted in a rabbit anterior lamellar keratoplasty model.",
+  "journal": "PloS one",
+  "year": "2021",
+  "doi": "10.1371/journal.pone.0245406"
+ },
+ "34330126": {
+  "screening_id": "PUBMED_0450",
+  "citekey": "Zhong et al., 2021",
+  "authorString": "Zhong Z, Balayan A, Tian J, Xiang Y, Hwang HH, Wu X, Deng X, Schimelman J, Sun Y, Ma C, Dos Santos A, You S, Tang M, Yao E, Shi X, Steinmetz NF, Deng SX, Chen S.",
+  "title": "Bioprinting of dual ECM scaffolds encapsulating limbal stem/progenitor cells in active and quiescent statuses.",
+  "journal": "Biofabrication",
+  "year": "2021",
+  "doi": "10.1088/1758-5090/ac1992"
+ },
+ "34537415": {
+  "screening_id": "PUBMED_0468",
+  "citekey": "Fernandes-Cunha et al., 2022",
+  "authorString": "Fernandes-Cunha GM, Jeong SH, Logan CM, Le P, Mundy D, Chen F, Chen KM, Kim M, Lee GH, Na KS, Hahn SK, Myung D.",
+  "title": "Supramolecular host-guest hyaluronic acid hydrogels enhance corneal wound healing through dynamic spatiotemporal effects.",
+  "journal": "The ocular surface",
+  "year": "2022",
+  "doi": "10.1016/j.jtos.2021.09.002"
+ },
+ "35229601": {
+  "screening_id": "PUBMED_0530",
+  "citekey": "Zhang et al., 2022",
+  "authorString": "Zhang Y, Hu Z, Qu J, Xie H, Zhao J, Fan T, Liu X, Zhang M.",
+  "title": "Tissue-Engineered Corneal Endothelial Sheets Using Ultrathin Acellular Porcine Corneal Stroma Substrates for Endothelial Keratoplasty.",
+  "journal": "ACS biomaterials science & engineering",
+  "year": "2022",
+  "doi": "10.1021/acsbiomaterials.2c00039"
+ },
+ "36239965": {
+  "screening_id": "PUBMED_0596",
+  "citekey": "Chen et al., 2022",
+  "authorString": "Chen F, Mundy DC, Le P, Seo YA, Logan CM, Fernandes-Cunha GM, Basco CA, Myung D.",
+  "title": "In Situ-Forming Collagen-Hyaluronate Semi-Interpenetrating Network Hydrogel Enhances Corneal Defect Repair.",
+  "journal": "Translational vision science & technology",
+  "year": "2022",
+  "doi": "10.1167/tvst.11.10.22"
+ },
+ "36356877": {
+  "screening_id": "PUBMED_0601",
+  "citekey": "Bhattacharjee & Ahearne, 2022",
+  "authorString": "Bhattacharjee P, Ahearne M.",
+  "title": "Silk fibroin based interpenetrating network hydrogel for corneal stromal regeneration.",
+  "journal": "International journal of biological macromolecules",
+  "year": "2022",
+  "doi": "10.1016/j.ijbiomac.2022.11.021"
+ },
+ "36370413": {
+  "screening_id": "PUBMED_0602",
+  "citekey": "Mao et al., 2023",
+  "authorString": "Mao Y, Protzman NM, John N, Kuehn A, Long D, Sivalenka R, Junka RA, Shah AU, Gosiewska A, Hariri RJ, Brigido SA.",
+  "title": "An in vitro comparison of human corneal epithelial cell activity and inflammatory response on differently designed ocular amniotic membranes and a clinical case study.",
+  "journal": "Journal of biomedical materials research. Part B, Applied biomaterials",
+  "year": "2023",
+  "doi": "10.1002/jbm.b.35186"
+ },
+ "36729619": {
+  "screening_id": "PUBMED_0626",
+  "citekey": "Boix-Lemonche et al., 2023",
+  "authorString": "Boix-Lemonche G, Nagymihaly RM, Niemi EM, Josifovska N, Johansen S, Moe MC, Scholz H, Petrovski G.",
+  "title": "Intracorneal Implantation of 3D Bioprinted Scaffolds Containing Mesenchymal Stromal Cells Using Femtosecond-Laser-Assisted Intrastromal Keratoplasty.",
+  "journal": "Macromolecular bioscience",
+  "year": "2023",
+  "doi": "10.1002/mabi.202200422"
+ },
+ "36989713": {
+  "screening_id": "PUBMED_0646",
+  "citekey": "González-Gallardo et al., 2023",
+  "authorString": "González-Gallardo C, Martínez-Atienza J, Mataix B, Muñoz-Ávila JI, Daniel Martínez-Rodríguez J, Medialdea S, Ruiz-García A, Lizana-Moreno A, Arias-Santiago S, de la Rosa-Fraile M, Garzon I, Campos A, Cuende N, Alaminos M, González-Andrades M, Mata R.",
+  "title": "Successful restoration of corneal surface integrity with a tissue-engineered allogeneic implant in severe keratitis patients.",
+  "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+  "year": "2023",
+  "doi": "10.1016/j.biopha.2023.114612"
+ },
+ "37273996": {
+  "screening_id": "PUBMED_0672",
+  "citekey": "Xue et al., 2023",
+  "authorString": "Xue Q, Ma L, Hu H, Li Q, Wang W, Yang H, Zhang B.",
+  "title": "3D bioprinting as a prospective therapeutic strategy for corneal limbal epithelial stem cell deficiency.",
+  "journal": "International journal of bioprinting",
+  "year": "2023",
+  "doi": "10.18063/ijb.710"
+ },
+ "37456580": {
+  "screening_id": "PUBMED_0688",
+  "citekey": "Zhou et al., 2023",
+  "authorString": "Zhou H, Zhang S, Lei M, Cai Y, Wang H, Sun J, Cui J, Liu C, Qu X.",
+  "title": "A suture-free, shape self-adaptive and bioactive PEG-Lysozyme implant for Corneal stroma defect repair and rapid vision restoration.",
+  "journal": "Bioactive materials",
+  "year": "2023",
+  "doi": "10.1016/j.bioactmat.2023.05.008"
+ },
+ "37476050": {
+  "screening_id": "PUBMED_0690",
+  "citekey": "Kang et al., 2023",
+  "authorString": "Kang H, Han Y, Jin M, Zheng L, Liu Z, Xue Y, Liu Z, Li C.",
+  "title": "Decellularized squid mantle scaffolds as tissue-engineered corneal stroma for promoting corneal regeneration.",
+  "journal": "Bioengineering & translational medicine",
+  "year": "2023",
+  "doi": "10.1002/btm2.10531"
+ },
+ "37539164": {
+  "screening_id": "PUBMED_0699",
+  "citekey": "Jiang et al., 2023",
+  "authorString": "Jiang L, Dong X, Chen L, Han R, Hao P, Wang L, Gao J, Chen X, Li X.",
+  "title": "A composite hydrogel membrane with shape and water retention for corneal tissue engineering.",
+  "journal": "Heliyon",
+  "year": "2023",
+  "doi": "10.1016/j.heliyon.2023.e17950"
+ },
+ "37594449": {
+  "screening_id": "PUBMED_0702",
+  "citekey": "Mahmood et al., 2023",
+  "authorString": "Mahmood N, Sefat E, Roberts D, Gilger BC, Gluck JM.",
+  "title": "Application of Noggin-Coated Electrospun Scaffold in Corneal Wound Healing.",
+  "journal": "Translational vision science & technology",
+  "year": "2023",
+  "doi": "10.1167/tvst.12.8.15"
+ },
+ "37731910": {
+  "screening_id": "PUBMED_0709",
+  "citekey": "Bhattacharjee et al., 2023",
+  "authorString": "Bhattacharjee P, Madden PW, Patriarca E, Ahearne M.",
+  "title": "Optimization and evaluation of oxygen-plasma-modified, aligned, poly (Є-caprolactone) and silk fibroin nanofibrous scaffold for corneal stromal regeneration.",
+  "journal": "Biomaterials and biosystems",
+  "year": "2023",
+  "doi": "10.1016/j.bbiosy.2023.100083"
+ },
+ "37866722": {
+  "screening_id": "PUBMED_0719",
+  "citekey": "Xeroudaki et al., 2023",
+  "authorString": "Xeroudaki M, Rafat M, Moustardas P, Mukwaya A, Tabe S, Bellisario M, Peebo B, Lagali N.",
+  "title": "A double-crosslinked nanocellulose-reinforced dexamethasone-loaded collagen hydrogel for corneal application and sustained anti-inflammatory activity.",
+  "journal": "Acta biomaterialia",
+  "year": "2023",
+  "doi": "10.1016/j.actbio.2023.10.020"
+ },
+ "38486306": {
+  "screening_id": "PUBMED_0761",
+  "citekey": "Grönroos et al., 2024",
+  "authorString": "Grönroos P, Mörö A, Puistola P, Hopia K, Huuskonen M, Viheriälä T, Ilmarinen T, Skottman H.",
+  "title": "Bioprinting of human pluripotent stem cell derived corneal endothelial cells with hydrazone crosslinked hyaluronic acid bioink.",
+  "journal": "Stem cell research & therapy",
+  "year": "2024",
+  "doi": "10.1186/s13287-024-03672-w"
+ },
+ "38646166": {
+  "screening_id": "PUBMED_0770",
+  "citekey": "Agrawal et al., 2024",
+  "authorString": "Agrawal P, Tiwari A, Chowdhury SK, Vohra M, Gour A, Waghmare N, Bhutani U, Kamalnath S, Sangwan B, Rajput J, Raj R, Rajendran NP, Kamath AV, Haddadin R, Chandru A, Sangwan VS, Bhowmick T.",
+  "title": "Kuragel: A biomimetic hydrogel scaffold designed to promote corneal regeneration.",
+  "journal": "iScience",
+  "year": "2024",
+  "doi": "10.1016/j.isci.2024.109641"
+ },
+ "39328788": {
+  "screening_id": "PUBMED_0821",
+  "citekey": "Hashimoto et al., 2024",
+  "authorString": "Hashimoto Y, Negishi J, Funamoto S, Kimura T, Kobayashi H, Oshika T, Kishida A.",
+  "title": "Preparation, physico-biochemical characterization, and proteomic analysis of highly transparent corneal extracellular matrices for lamellar keratoplasty and tissue-engineered cornea construction.",
+  "journal": "Materials today. Bio",
+  "year": "2024",
+  "doi": "10.1016/j.mtbio.2024.101241"
+ },
+ "39375390": {
+  "screening_id": "PUBMED_0826",
+  "citekey": "Pietryga et al., 2024",
+  "authorString": "Pietryga K, Jesse K, Drzyzga R, Konka A, Zembala-John J, Kowalik A, Kiełbowicz Z, Ćwirko M, Bułdak RJ, Dobrowolski D, Wylęgała E.",
+  "title": "Bio-printing method as a novel approach to obtain a fibrin scaffold settled by limbal epithelial cells for corneal regeneration.",
+  "journal": "Scientific reports",
+  "year": "2024",
+  "doi": "10.1038/s41598-024-73383-y"
+ },
+ "39551331": {
+  "screening_id": "PUBMED_0841",
+  "citekey": "Chi et al., 2025",
+  "authorString": "Chi J, Wang S, Ju R, Li S, Liu C, Zou M, Xu T, Wang Y, Jiang Z, Yang C, Han B.",
+  "title": "Repair effects of thermosensitive hydrogels combined with iPSC-derived corneal endothelial cells on rabbit corneal endothelial dysfunction.",
+  "journal": "Acta biomaterialia",
+  "year": "2025",
+  "doi": "10.1016/j.actbio.2024.11.021"
+ },
+ "39800095": {
+  "screening_id": "PUBMED_0867",
+  "citekey": "Wang et al., 2025",
+  "authorString": "Wang P, Shen S, Guo Y, Cao J, Zhu D, Xie M, Yu Q, Cui Z, Liu S, Zhang J, Chen J.",
+  "title": "Rho kinase inhibitor Y-27632 and dual media culture approach promote the construction and transplantation of rabbit limbal epithelial cell sheets via cell spheroid culture and auto-bioprinting.",
+  "journal": "Acta biomaterialia",
+  "year": "2025",
+  "doi": "10.1016/j.actbio.2025.01.022"
+ },
+ "39819884": {
+  "screening_id": "PUBMED_0871",
+  "citekey": "Chand et al., 2025",
+  "authorString": "Chand R, Janarthanan G, Elkhoury K, Vijayavenkataraman S.",
+  "title": "Digital light processing 3D bioprinting of biomimetic corneal stroma equivalent using gelatin methacryloyl and oxidized carboxymethylcellulose interpenetrating network hydrogel.",
+  "journal": "Biofabrication",
+  "year": "2025",
+  "doi": "10.1088/1758-5090/adab27"
+ },
+ "39853921": {
+  "screening_id": "PUBMED_0877",
+  "citekey": "Zhao et al., 2025",
+  "authorString": "Zhao L, Shi Z, Zhang X, Wang J, Yang S, Wang F, Li T, Zhou Q, Wang T, Shi W.",
+  "title": "Artificial Cornea Substitute Based on Hydrogel Skeletons with Natural Stromal Hierarchical Structure and Extracellular Matrix for Sutureless Transplantation.",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "year": "2025",
+  "doi": "10.1002/advs.202411540"
+ },
+ "40159843": {
+  "screening_id": "PUBMED_0907",
+  "citekey": "Li et al., 2025",
+  "authorString": "Li Q, Zhang R, Ouyang C, Wang S, Li S, Yin X, Deng Z, Han B, Chi J.",
+  "title": "Photocurable Dual-Network Hydrogels Based on Natural Polymers for Sutureless Repair of Large Corneal Defects.",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "year": "2025",
+  "doi": "10.1002/smll.202500150"
+ },
+ "40296037": {
+  "screening_id": "PUBMED_0919",
+  "citekey": "Wei et al., 2025",
+  "authorString": "Wei R, Wang Y, Feng Z, Liu R, Liu C, Hu X, Liu Y, Kong B, Zhou X, Li M.",
+  "title": "Self-healing adhesive oxidized guar gum hydrogel loaded with mesenchymal stem cell exosomes for corneal wound healing.",
+  "journal": "Journal of nanobiotechnology",
+  "year": "2025",
+  "doi": "10.1186/s12951-025-03366-2"
+ },
+ "40395134": {
+  "screening_id": "PUBMED_0928",
+  "citekey": "Yin et al., 2025",
+  "authorString": "Yin Y, Long L, Wang N, Wei R, Guo M, Fu D, Zhang F, Ma K, Yang L, Wang Y.",
+  "title": "Highly transparent and elastic acellular swim bladder with potential application in cornea implantation.",
+  "journal": "Journal of materials chemistry. B",
+  "year": "2025",
+  "doi": "10.1039/d5tb00793c"
+ },
+ "40446990": {
+  "screening_id": "PUBMED_0934",
+  "citekey": "Tayebi et al., 2025",
+  "authorString": "Tayebi T, Kasravi M, Naderi A, Nooshin BJ, Niknejad H.",
+  "title": "The interaction of the biocompatible scaffold containing nanochitosan-chitosan-polycaprolactone with telomerase activator and rock inhibitor in propagation and functional properties of corneal endothelial cells.",
+  "journal": "International journal of biological macromolecules",
+  "year": "2025",
+  "doi": "10.1016/j.ijbiomac.2025.144744"
+ },
+ "40613723": {
+  "screening_id": "PUBMED_0947",
+  "citekey": "Peng et al., 2025",
+  "authorString": "Peng L, Ma W, Zhang L, Liu S, Han K, Chen B.",
+  "title": "A graphene oxide/niobium carbide MXene composite-based functional nanocomposite scaffold for artificial corneas.",
+  "journal": "Nanoscale",
+  "year": "2025",
+  "doi": "10.1039/d5nr01312g"
+ },
+ "40665979": {
+  "screening_id": "PUBMED_0950",
+  "citekey": "Chen et al., 2025",
+  "authorString": "Chen YN, Guo RQ, Liang BY, Ke HQ, Dong MJ, He MF, Yang J, Liu H.",
+  "title": "Research on the construction of corneal endothelium transplantation with acellular amniotic membrane as a scaffold.",
+  "journal": "Frontiers in medicine",
+  "year": "2025",
+  "doi": "10.3389/fmed.2025.1592123"
+ },
+ "41073348": {
+  "screening_id": "PUBMED_0990",
+  "citekey": "Su et al., 2025",
+  "authorString": "Su Z, Chen Y, Zhou Y, Cui Z, Yang J, Chen Z, Chen J, Gu J, Li K.",
+  "title": "Native Bio-Lenticules Mediated Rapamycin Delivery for Corneal Immunomodulation and Tissue Repair Promotion.",
+  "journal": "ACS biomaterials science & engineering",
+  "year": "2025",
+  "doi": "10.1021/acsbiomaterials.5c01309"
+ },
+ "41203155": {
+  "screening_id": "PUBMED_1006",
+  "citekey": "Deng et al., 2025",
+  "authorString": "Deng Z, Yin X, Wang S, Li S, Li Q, Xia L, Ju R, Han B, Chi J.",
+  "title": "Photocurable hybrid hydrogels based on gelatin and polysaccharides for sutureless repair of corneal defects.",
+  "journal": "International journal of biological macromolecules",
+  "year": "2025",
+  "doi": "10.1016/j.ijbiomac.2025.148835"
+ },
+ "41218465": {
+  "screening_id": "PUBMED_1009",
+  "citekey": "Zhong et al., 2026",
+  "authorString": "Zhong M, Zhao J, Fan T.",
+  "title": "Matrix stiffness modulates YAP-mediated glycolysis and proliferation in human corneal endothelial cells.",
+  "journal": "Biomaterials advances",
+  "year": "2026",
+  "doi": "10.1016/j.bioadv.2025.214594"
+ },
+ "41234357": {
+  "screening_id": "PUBMED_1011",
+  "citekey": "Aghazadeh et al., 2025",
+  "authorString": "Aghazadeh S, Peng Q, Dardmeh F, Østergaard Hjortdal J, Zachar V, Alipour H.",
+  "title": "The impact of the limbal niche interactions on the self-renewal capability of limbal epithelial stem cells.",
+  "journal": "Frontiers in cell and developmental biology",
+  "year": "2025",
+  "doi": "10.3389/fcell.2025.1667309"
+ },
+ "41359360": {
+  "screening_id": "PUBMED_1015",
+  "citekey": "Lu et al., 2025",
+  "authorString": "Lu P, Shan M, Peng C, Ji W, Yang T, Yang Z, Zhang Z, Wang Y.",
+  "title": "Alkaline Phosphatase-Triggered Spatiotemporal Repair of Corneal Injury with TB500 Peptide Hydrogel.",
+  "journal": "ACS applied materials & interfaces",
+  "year": "2025",
+  "doi": "10.1021/acsami.5c14652"
+ },
+ "41379646": {
+  "screening_id": "PUBMED_1016",
+  "citekey": "Bedard et al., 2026",
+  "authorString": "Bedard P, Yuan C, Lee S, Roehrich H, Hou JH.",
+  "title": "Descemet Membrane Versus Amniotic Membrane for Limbal Stem Cell Therapy.",
+  "journal": "Cornea",
+  "year": "2026",
+  "doi": "10.1097/ICO.0000000000004073"
+ },
+ "42035972": {
+  "screening_id": "PUBMED_1072",
+  "citekey": "Chen et al., 2026",
+  "authorString": "Chen S, Cao J, Ye X, Xie F, Wang W, Liang Y, Yang T, Xie M, Liang L, Su C, Zhang J, Cui Z, Chen J.",
+  "title": "Limbal organoids and bioengineering sheets based on niche microphysiological systems and bioprinting for corneal injury repair in rabbits.",
+  "journal": "Acta biomaterialia",
+  "year": "2026",
+  "doi": "10.1016/j.actbio.2026.04.042"
+ },
+ "29413615": {
+  "screening_id": "PUBMED_0032",
+  "citekey": "Kim et al., 2018a",
+  "authorString": "Kim DK, Sim BR, Kim JI, Khang G.",
+  "title": "Functionalized silk fibroin film scaffold using β-Carotene for cornea endothelial cell regeneration.",
+  "journal": "Colloids and surfaces. B, Biointerfaces",
+  "year": "2018",
+  "doi": "10.1016/j.colsurfb.2017.11.052"
+ },
+ "29998891": {
+  "screening_id": "PUBMED_0075",
+  "citekey": "Cen & Feng, 2018",
+  "authorString": "Cen YJ, Feng Y.",
+  "title": "Constructing a Novel Three-Dimensional Biomimetic Corneal Endothelium Graft by Culturing Corneal Endothelium Cells on Compressed Collagen Gels.",
+  "journal": "Chinese medical journal",
+  "year": "2018",
+  "doi": "10.4103/0366-6999.235883"
+ },
+ "30066447": {
+  "screening_id": "PUBMED_0081",
+  "citekey": "Kim et al., 2018b",
+  "authorString": "Kim KW, Lee SJ, Park SH, Kim JC.",
+  "title": "Ex Vivo Functionality of 3D Bioprinted Corneal Endothelium Engineered with Ribonuclease 5-Overexpressing Human Corneal Endothelial Cells.",
+  "journal": "Advanced healthcare materials",
+  "year": "2018",
+  "doi": "10.1002/adhm.201800398"
+ },
+ "31129253": {
+  "screening_id": "PUBMED_0157",
+  "citekey": "Wang et al., 2019",
+  "authorString": "Wang YH, Young TH, Wang TJ.",
+  "title": "Investigating the effect of chitosan/ polycaprolactone blends in differentiation of corneal endothelial cells and extracellular matrix compositions.",
+  "journal": "Experimental eye research",
+  "year": "2019",
+  "doi": "10.1016/j.exer.2019.05.019"
+ },
+ "32622067": {
+  "screening_id": "PUBMED_0304",
+  "citekey": "Lu et al., 2020",
+  "authorString": "Lu Q, Peng RM, Feng N, Wen MD, He LH, Hong J.",
+  "title": "Evaluation of reconstructed human corneal endothelium sheets made with porcine Descemet's membrane in vitro and in vivo.",
+  "journal": "Experimental eye research",
+  "year": "2020",
+  "doi": "10.1016/j.exer.2020.108125"
+ },
+ "32805263": {
+  "screening_id": "PUBMED_0322",
+  "citekey": "An et al., 2020",
+  "authorString": "An JH, Park SY, Kim GH, Mo IP, Kim S, Woo HM, Park KM.",
+  "title": "Tissue engineered ultra-thin descemet stripping corneal endothelial layers using porcine cornea and stem cells.",
+  "journal": "Experimental eye research",
+  "year": "2020",
+  "doi": "10.1016/j.exer.2020.108192"
+ },
+ "33448665": {
+  "screening_id": "PUBMED_0378",
+  "citekey": "Erkoc-Biradli et al., 2021",
+  "authorString": "Erkoc-Biradli FZ, Ozgun A, Öztürk-Öncel MÖ, Marcali M, Elbuken C, Bulut O, Rasier R, Garipcan B.",
+  "title": "Bioinspired hydrogel surfaces to augment corneal endothelial cell monolayer formation.",
+  "journal": "Journal of tissue engineering and regenerative medicine",
+  "year": "2021",
+  "doi": "10.1002/term.3173"
+ },
+ "33448808": {
+  "screening_id": "PUBMED_0379",
+  "citekey": "Seow et al., 2019",
+  "authorString": "Seow WY, Kandasamy K, Peh GSL, Mehta JS, Sun W.",
+  "title": "Ultrathin, Strong, and Cell-Adhesive Agarose-Based Membranes Engineered as Substrates for Corneal Endothelial Cells.",
+  "journal": "ACS biomaterials science & engineering",
+  "year": "2019",
+  "doi": "10.1021/acsbiomaterials.9b00610"
+ },
+ "33463278": {
+  "screening_id": "PUBMED_0382",
+  "citekey": "Li et al., 2020",
+  "authorString": "Li KY, Pan HA, Chen KH, Kuo TL, Chou CH, Liang YJ, Lin FH.",
+  "title": "Fish-Scale Collagen Membrane Seeded with Corneal Endothelial Cells as Alternative Graft for Endothelial Keratoplasty Transplantation.",
+  "journal": "ACS biomaterials science & engineering",
+  "year": "2020",
+  "doi": "10.1021/acsbiomaterials.9b00562"
+ },
+ "33939123": {
+  "screening_id": "PUBMED_0421",
+  "citekey": "Mishan et al., 2022",
+  "authorString": "Mishan MA, Balagholi S, Chamani T, Feizi S, Soheili ZS, Rezaei Kanavi M.",
+  "title": "Potential of a novel scaffold composed of human platelet lysate and fibrin for human corneal endothelial cells.",
+  "journal": "Cell and tissue banking",
+  "year": "2022",
+  "doi": "10.1007/s10561-021-09931-x"
+ },
+ "34552187": {
+  "screening_id": "PUBMED_0469",
+  "citekey": "Himmler et al., 2021",
+  "authorString": "Himmler M, Garreis F, Paulsen F, Schubert DW, Fuchsluger TA.",
+  "title": "Optimization of polycaprolactone - based nanofiber matrices for the cultivation of corneal endothelial cells.",
+  "journal": "Scientific reports",
+  "year": "2021",
+  "doi": "10.1038/s41598-021-98426-6"
+ },
+ "35238557": {
+  "screening_id": "PUBMED_0531",
+  "citekey": "Song et al., 2022",
+  "authorString": "Song ES, Park JH, Ha SS, Cha PH, Kang JT, Park CY, Park K.",
+  "title": "Novel Corneal Endothelial Cell Carrier Couples a Biodegradable Polymer and a Mesenchymal Stem Cell-Derived Extracellular Matrix.",
+  "journal": "ACS applied materials & interfaces",
+  "year": "2022",
+  "doi": "10.1021/acsami.2c01709"
+ },
+ "36080636": {
+  "screening_id": "PUBMED_0588",
+  "citekey": "Montalvo-Parra et al., 2022",
+  "authorString": "Montalvo-Parra MD, Ortega-Lara W, Loya-García D, Bustamante-Arias A, Guerrero-Ramírez GI, Calzada-Rodríguez CE, Torres-Guerrero GF, Hernández-Sedas B, Cárdenas-Rodríguez IT, Guevara-Quintanilla SE, Salán-Gomez M, Hernández-Delgado MÁ, Garza-González S, Gamboa-Quintanilla MG, Villagómez-Valdez LG, Zavala J, Valdez-García JE.",
+  "title": "Customizable Collagen Vitrigel Membranes and Preliminary Results in Corneal Engineering.",
+  "journal": "Polymers",
+  "year": "2022",
+  "doi": "10.3390/polym14173556"
+ },
+ "38780042": {
+  "screening_id": "PUBMED_0777",
+  "citekey": "Song et al., 2024",
+  "authorString": "Song E, Kwon JW, Park CY, Kang JT, Park K.",
+  "title": "Alginate Hydrogel Integrated with a Human Fibroblast-Derived Extracellular Matrix Supports Corneal Endothelial Cell Functionality and Suppresses Endothelial-Mesenchymal Transition.",
+  "journal": "ACS biomaterials science & engineering",
+  "year": "2024",
+  "doi": "10.1021/acsbiomaterials.4c00040"
+ },
+ "40221533": {
+  "screening_id": "PUBMED_0910",
+  "citekey": "Tsai et al., 2025",
+  "authorString": "Tsai MC, Kureshi A, Daniels JT.",
+  "title": "Tissue engineered corneal endothelium transplantation in an ex vivo human cornea organ culture model.",
+  "journal": "Scientific reports",
+  "year": "2025",
+  "doi": "10.1038/s41598-025-96494-6"
+ },
+ "40366209": {
+  "screening_id": "PUBMED_0925",
+  "citekey": "Hazra et al., 2025",
+  "authorString": "Hazra S, Dey S, Mandal BB, Ramachandran C.",
+  "title": "Addition of Microscale Topographies to Silk Fibroin Film Modulates Corneal Endothelial Cell Behavior.",
+  "journal": "ACS biomaterials science & engineering",
+  "year": "2025",
+  "doi": "10.1021/acsbiomaterials.5c00200"
+ },
+ "40536661": {
+  "screening_id": "PUBMED_0940",
+  "citekey": "Kim et al., 2025",
+  "authorString": "Kim CY, Jeong C, Lee H, Hwang C.",
+  "title": "Corneal Endothelium Regeneration with Decellularized Porcine Corneal Extracellular Matrix Scaffolds.",
+  "journal": "Tissue engineering and regenerative medicine",
+  "year": "2025",
+  "doi": "10.1007/s13770-025-00734-9"
+ },
+ "40986463": {
+  "screening_id": "PUBMED_0981",
+  "citekey": "Aouimeur et al., 2025",
+  "authorString": "Aouimeur I, Coulomb L, Fraine S, He Z, Bonnet G, Sagnial T, Travers G, Xxx S, Mauclair C, Moisan A, Gain P, Thuret G, Maurin C.",
+  "title": "Tissue-Engineered Endothelial Keratoplasty with Controlled Cell Density: Toward Super TEEKs.",
+  "journal": "Tissue engineering. Part A",
+  "year": "2025",
+  "doi": "10.1177/19373341251381346"
+ },
+ "29281419": {
+  "screening_id": "PUBMED_0021",
+  "citekey": "Kruse et al., 2018",
+  "authorString": "Kruse M, Walter P, Bauer B, Rütten S, Schaefer K, Plange N, Gries T, Jockenhoevel S, Fuest M.",
+  "title": "Electro-spun Membranes as Scaffolds for Human Corneal Endothelial Cells.",
+  "journal": "Current eye research",
+  "year": "2018",
+  "doi": "10.1080/02713683.2017.1377258"
+ },
+ "31258659": {
+  "screening_id": "PUBMED_0171",
+  "citekey": "Liu et al., 2019",
+  "authorString": "Liu C, Tang S, Niu G, Zhang J, Huang X, Zhang Y, Bi Y.",
+  "title": "Ex vivo construction of rabbit corneal endothelial cell sheets on a porcine descemet membrane graft.",
+  "journal": "Experimental and therapeutic medicine",
+  "year": "2019",
+  "doi": "10.3892/etm.2019.7573"
+ },
+ "35358736": {
+  "screening_id": "PUBMED_0537",
+  "citekey": "Zhao et al., 2022",
+  "authorString": "Zhao J, Tian M, Li Y, Su W, Fan T.",
+  "title": "Construction of tissue-engineered human corneal endothelium for corneal endothelial regeneration using a crosslinked amniotic membrane scaffold.",
+  "journal": "Acta biomaterialia",
+  "year": "2022",
+  "doi": "10.1016/j.actbio.2022.03.039"
+ },
+ "37023465": {
+  "screening_id": "PUBMED_0649",
+  "citekey": "Hazra et al., 2023",
+  "authorString": "Hazra S, Dey S, Mandal BB, Ramachandran C.",
+  "title": "In Vitro Profiling of the Extracellular Matrix and Integrins Expressed by Human Corneal Endothelial Cells Cultured on Silk Fibroin-Based Matrices.",
+  "journal": "ACS biomaterials science & engineering",
+  "year": "2023",
+  "doi": "10.1021/acsbiomaterials.2c01566"
+ },
+ "39386038": {
+  "screening_id": "PUBMED_0827",
+  "citekey": "Bosch et al., 2024",
+  "authorString": "Bosch BM, Delgado LM, Rodríguez-González R, Perez RA.",
+  "title": "The time dependent influence of curvature and topography of biomaterials in the behavior of corneal endothelial cells.",
+  "journal": "Frontiers in bioengineering and biotechnology",
+  "year": "2024",
+  "doi": "10.3389/fbioe.2024.1454675"
+ },
+ "29040119": {
+  "screening_id": "PUBMED_0010",
+  "citekey": "Kim et al., 2018c",
+  "authorString": "Kim YJ, Lee HJ, Ryu JS, Kim YH, Jeon S, Oh JY, Choung HK, Khwarg SI, Wee WR, Kim MK.",
+  "title": "Prospective Clinical Trial of Corneal Reconstruction With Biomaterial-Free Cultured Oral Mucosal Epithelial Cell Sheets.",
+  "journal": "Cornea",
+  "year": "2018",
+  "doi": "10.1097/ICO.0000000000001409"
+ },
+ "30279555": {
+  "screening_id": "PUBMED_0099",
+  "citekey": "Lee et al., 2018",
+  "authorString": "Lee HJ, Nam SM, Choi SK, Seo KY, Kim HO, Chung SH.",
+  "title": "Comparative study of substrate free and amniotic membrane scaffolds for cultivation of limbal epithelial sheet.",
+  "journal": "Scientific reports",
+  "year": "2018",
+  "doi": "10.1038/s41598-018-32914-0"
+ },
+ "33210832": {
+  "screening_id": "PUBMED_0359",
+  "citekey": "Lee et al., 2021",
+  "authorString": "Lee H, Lee JH, Hong S, Sunwoo JH, Kim HT, Kim ES, Kim JY, Hwang C, Tchah H.",
+  "title": "Transplantation of human corneal limbal epithelial cell sheet harvested on synthesized carboxymethyl cellulose and dopamine in a limbal stem cell deficiency.",
+  "journal": "Journal of tissue engineering and regenerative medicine",
+  "year": "2021",
+  "doi": "10.1002/term.3159"
+ },
+ "34302219": {
+  "screening_id": "PUBMED_0447",
+  "citekey": "Narwani et al., 2021",
+  "authorString": "Narwani K, Stark J, Cortez D, Yang I, Au C, Diaz A, Guerra C, Niihara Y, Bardag-Gorce F.",
+  "title": "cG-CAOMECS-clinical-grade cultured autologous oral mucosal epithelial cell sheet.",
+  "journal": "Cell and tissue research",
+  "year": "2021",
+  "doi": "10.1007/s00441-021-03507-7"
+ },
+ "39050175": {
+  "screening_id": "PUBMED_0799",
+  "citekey": "Gao et al., 2024",
+  "authorString": "Gao M, Chen Y, Zhai F, Liu Z, Liu Q, Wang Z.",
+  "title": "The effect of cultured autologous oral mucosal epithelial cells on ocular surface reconstruction.",
+  "journal": "Archives of medical science : AMS",
+  "year": "2024",
+  "doi": "10.5114/aoms/115576"
+ },
+ "39558722": {
+  "screening_id": "PUBMED_0843",
+  "citekey": "Pourjabbar et al., 2024",
+  "authorString": "Pourjabbar B, Shams F, Heidari Keshel S, Biazar E.",
+  "title": "Proliferation and differentiation of Wharton's jelly-derived mesenchymal stem cells on prgf-treated hydrogel scaffold.",
+  "journal": "Regenerative medicine",
+  "year": "2024",
+  "doi": "10.1080/17460751.2024.2427513"
+ },
+ "29691018": {
+  "screening_id": "PUBMED_0056",
+  "citekey": "Xu et al., 2018",
+  "authorString": "Xu W, Wang Z, Liu Y, Wang L, Jiang Z, Li T, Zhang W, Liang Y.",
+  "title": "Carboxymethyl chitosan/gelatin/hyaluronic acid blended-membranes as epithelia transplanting scaffold for corneal wound healing.",
+  "journal": "Carbohydrate polymers",
+  "year": "2018",
+  "doi": "10.1016/j.carbpol.2018.03.033"
+ },
+ "30548137": {
+  "screening_id": "PUBMED_0120",
+  "citekey": "Xu et al., 2019",
+  "authorString": "Xu W, Liu K, Li T, Zhang W, Dong Y, Lv J, Wang W, Sun J, Li M, Wang M, Zhao Z, Liang Y.",
+  "title": "An in situ hydrogel based on carboxymethyl chitosan and sodium alginate dialdehyde for corneal wound healing after alkali burn.",
+  "journal": "Journal of biomedical materials research. Part A",
+  "year": "2019",
+  "doi": "10.1002/jbm.a.36589"
+ },
+ "31988856": {
+  "screening_id": "PUBMED_0241",
+  "citekey": "Sanie-Jahromi et al., 2020",
+  "authorString": "Sanie-Jahromi F, Eghtedari M, Mirzaei E, Jalalpour MH, Asvar Z, Nejabat M, Nejabat M, Javidi-Azad F.",
+  "title": "Propagation of limbal stem cells on polycaprolactone and polycaprolactone/gelatin fibrous scaffolds and transplantation in animal model.",
+  "journal": "BioImpacts : BI",
+  "year": "2020",
+  "doi": "10.15171/bi.2020.06"
+ },
+ "32572811": {
+  "screening_id": "PUBMED_0300",
+  "citekey": "Venugopal et al., 2020",
+  "authorString": "Venugopal B, Mohan S, Kumary TV, Anil Kumar PR.",
+  "title": "Peripheral Blood As a Source of Stem Cells for Regenerative Medicine: Emphasis Towards Corneal Epithelial Reconstruction-An In Vitro Study.",
+  "journal": "Tissue engineering and regenerative medicine",
+  "year": "2020",
+  "doi": "10.1007/s13770-020-00273-5"
+ },
+ "32781567": {
+  "screening_id": "PUBMED_0320",
+  "citekey": "Tominac Trcin et al., 2020",
+  "authorString": "Tominac Trcin M, Zdraveva E, Dolenec T, Vrgoč Zimić I, Bujić Mihica M, Batarilo I, Dekaris I, Blažević V, Slivac I, Holjevac Grgurić T, Bajsić EG, Markov K, Čanak I, Kuzmić S, Tarbuk A, Tomljenović A, Mrkonjić N, Mijović B.",
+  "title": "Poly(ε-caprolactone) Titanium Dioxide and Cefuroxime Antimicrobial Scaffolds for Cultivation of Human Limbal Stem Cells.",
+  "journal": "Polymers",
+  "year": "2020",
+  "doi": "10.3390/polym12081758"
+ },
+ "36708851": {
+  "screening_id": "PUBMED_0623",
+  "citekey": "Hu et al., 2023",
+  "authorString": "Hu Y, Shi H, Ma X, Xia T, Wu Y, Chen L, Ren Z, Lei L, Jiang J, Wang J, Li X.",
+  "title": "Highly stable fibronectin-mimetic-peptide-based supramolecular hydrogel to accelerate corneal wound healing.",
+  "journal": "Acta biomaterialia",
+  "year": "2023",
+  "doi": "10.1016/j.actbio.2023.01.047"
+ },
+ "36772078": {
+  "screening_id": "PUBMED_0632",
+  "citekey": "Zdraveva et al., 2023",
+  "authorString": "Zdraveva E, Bendelja K, Bočkor L, Dolenec T, Mijović B.",
+  "title": "Detection of Limbal Stem Cells Adhered to Melt Electrospun Silk Fibroin and Gelatin-Modified Polylactic Acid Scaffolds.",
+  "journal": "Polymers",
+  "year": "2023",
+  "doi": "10.3390/polym15030777"
+ },
+ "40168696": {
+  "screening_id": "PUBMED_0908",
+  "citekey": "Tan et al., 2025",
+  "authorString": "Tan Y, Wang W, Xu L, Zhou X, Shen J, Zhou T, Duan C, Wang X, Liu Z, Wang M, Li G.",
+  "title": "Decellularized human amniotic member hydrogel promotes limbal stem cells proliferation.",
+  "journal": "Colloids and surfaces. B, Biointerfaces",
+  "year": "2025",
+  "doi": "10.1016/j.colsurfb.2025.114656"
+ },
+ "40451552": {
+  "screening_id": "PUBMED_0937",
+  "citekey": "Guo et al., 2025",
+  "authorString": "Guo S, Han Y, Li J, Huang Y, Yu D, Liu Y, Wang Y, Fan C, Huang Y, Guan W, Qin D, Zheng L, Huang C, Li C, Hu J, Liu Z.",
+  "title": "Topical delivery of cultivated limbal stem cells via porous photocurable hydrogel: A noninvasive, convenient, and efficient stem cells delivery strategy for limbal stem cell deficiency.",
+  "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+  "year": "2025",
+  "doi": "10.1016/j.jconrel.2025.113900"
+ },
+ "42032346": {
+  "screening_id": "PUBMED_1071",
+  "citekey": "Mahmood et al., 2026",
+  "authorString": "Mahmood N, Zha D, Gullion S, Eletmany MR, Jahan UM, El-Shafei A, Gilger BC, Gluck JM.",
+  "title": "Surface modified electrospun scaffold supports iPSC-derived limbal stem cell function.",
+  "journal": "npj biomedical innovations",
+  "year": "2026",
+  "doi": "10.1038/s44385-026-00066-w"
+ },
+ "30716697": {
+  "screening_id": "PUBMED_0131",
+  "citekey": "de la Mata et al., 2019",
+  "authorString": "de la Mata A, Mateos-Timoneda MA, Nieto-Miguel T, Galindo S, López-Paniagua M, Planell JA, Engel E, Calonge M.",
+  "title": "Poly-l/dl-lactic acid films functionalized with collagen IV as carrier substrata for corneal epithelial stem cells.",
+  "journal": "Colloids and surfaces. B, Biointerfaces",
+  "year": "2019",
+  "doi": "10.1016/j.colsurfb.2019.01.054"
+ },
+ "31545477": {
+  "screening_id": "PUBMED_0202",
+  "citekey": "Patil et al., 2019",
+  "authorString": "Patil S, D'Souza C, Patil P, Patil V, Prabhu M, Bargale A, Kaveeshwar V, Kumar S, Shetty P.",
+  "title": "Culture and characterization of human dental pulp‑derived stem cells as limbal stem cells for corneal damage repair.",
+  "journal": "Molecular medicine reports",
+  "year": "2019",
+  "doi": "10.3892/mmr.2019.10691"
+ },
+ "34620226": {
+  "screening_id": "PUBMED_0477",
+  "citekey": "Ma et al., 2021",
+  "authorString": "Ma DH, Hsueh YJ, Ma KS, Tsai YJ, Huang SF, Chen HC, Sun CC, Kuo MT, Chao AS, Lai JY.",
+  "title": "Long-term survival of cultivated oral mucosal epithelial cells in human cornea: generating cell sheets using an animal product-free culture protocol.",
+  "journal": "Stem cell research & therapy",
+  "year": "2021",
+  "doi": "10.1186/s13287-021-02564-7"
+ },
+ "39425087": {
+  "screening_id": "PUBMED_0832",
+  "citekey": "Tandon et al., 2024",
+  "authorString": "Tandon R, Pandey PK, Khan TA, Das AK, Kalaivani M, Majood M, Kashyap S, Sen S, Lomi N, Gupta N, Vanathi M, Mohanty S.",
+  "title": "Comparative evaluation of autologous tissue-engineered ocular and oral mucosal tissue grafts- a prospective randomized controlled trial.",
+  "journal": "BMC biotechnology",
+  "year": "2024",
+  "doi": "10.1186/s12896-024-00876-z"
+ },
+ "34684011": {
+  "screening_id": "PUBMED_0485",
+  "citekey": "Sánchez-Porras et al., 2021",
+  "authorString": "Sánchez-Porras D, Caro-Magdaleno M, González-Gallardo C, García-García ÓD, Garzón I, Carriel V, Campos F, Alaminos M.",
+  "title": "Generation of a Biomimetic Substitute of the Corneal Limbus Using Decellularized Scaffolds.",
+  "journal": "Pharmaceutics",
+  "year": "2021",
+  "doi": "10.3390/pharmaceutics13101718"
+ },
+ "38513048": {
+  "screening_id": "PUBMED_1083",
+  "citekey": "Puistola et al., 2024",
+  "authorString": "Puistola P, Kethiri A, Nurminen A, Turkki J, Hopia K, Miettinen S, Mörö A, Skottman H.",
+  "title": "Cornea-Specific Human Adipose Stem Cell-Derived Extracellular Matrix for Corneal Stroma Tissue Engineering",
+  "journal": "ACS Applied Materials & Interfaces",
+  "year": "2024",
+  "doi": "10.1021/acsami.3c17803"
+ },
+ "38534529": {
+  "screening_id": "PUBMED_1084",
+  "citekey": "Ben Moussa et al., 2024",
+  "authorString": "Ben Moussa O, Parveau L, Aouimeur I, Egaud G, Maurin C, Fraine S, Urbaniak S, Perrache C, He Z, Xxx S, Dorado Cortez O, Poinard S, Mauclair C, Gain P, Thuret G.",
+  "title": "Femtosecond Laser Cutting of Human Crystalline Lens Capsule and Decellularization for Corneal Endothelial Bioengineering",
+  "journal": "Bioengineering (Basel)",
+  "year": "2024",
+  "doi": "10.3390/bioengineering11030255"
+ }
+}

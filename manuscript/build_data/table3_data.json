@@ -1,0 +1,125 @@
+{
+ "Endothelium": [
+  {
+   "category": "Animal-derived (xenogeneic) primary cells",
+   "count": 10,
+   "pct": 30
+  },
+  {
+   "category": "Human primary/donor cells",
+   "count": 9,
+   "pct": 27
+  },
+  {
+   "category": "Human cells (source detail unspecified)",
+   "count": 7,
+   "pct": 21
+  },
+  {
+   "category": "Not clearly specified",
+   "count": 4,
+   "pct": 12
+  },
+  {
+   "category": "Pluripotent stem cell-derived (iPSC/ESC)",
+   "count": 2,
+   "pct": 6
+  },
+  {
+   "category": "Mesenchymal stem cells",
+   "count": 1,
+   "pct": 3
+  }
+ ],
+ "Epithelium / Limbus": [
+  {
+   "category": "Animal-derived (xenogeneic) primary cells",
+   "count": 10,
+   "pct": 30
+  },
+  {
+   "category": "Human primary/donor cells",
+   "count": 7,
+   "pct": 21
+  },
+  {
+   "category": "Pluripotent stem cell-derived (iPSC/ESC)",
+   "count": 5,
+   "pct": 15
+  },
+  {
+   "category": "Not clearly specified",
+   "count": 4,
+   "pct": 12
+  },
+  {
+   "category": "Human cells (source detail unspecified)",
+   "count": 4,
+   "pct": 12
+  },
+  {
+   "category": "Mesenchymal stem cells",
+   "count": 1,
+   "pct": 3
+  },
+  {
+   "category": "Dental pulp stem cells",
+   "count": 1,
+   "pct": 3
+  },
+  {
+   "category": "Adipose-derived stem cells",
+   "count": 1,
+   "pct": 3
+  }
+ ],
+ "Stroma": [
+  {
+   "category": "Animal-derived (xenogeneic) primary cells",
+   "count": 11,
+   "pct": 48
+  },
+  {
+   "category": "Not clearly specified",
+   "count": 4,
+   "pct": 17
+  },
+  {
+   "category": "Human primary/donor cells",
+   "count": 4,
+   "pct": 17
+  },
+  {
+   "category": "Human cells (source detail unspecified)",
+   "count": 3,
+   "pct": 13
+  },
+  {
+   "category": "Adipose-derived stem cells",
+   "count": 1,
+   "pct": 4
+  }
+ ],
+ "Multiple Layers / Full-Thickness": [
+  {
+   "category": "Animal-derived (xenogeneic) primary cells",
+   "count": 5,
+   "pct": 45
+  },
+  {
+   "category": "Human primary/donor cells",
+   "count": 3,
+   "pct": 27
+  },
+  {
+   "category": "Human cells (source detail unspecified)",
+   "count": 2,
+   "pct": 18
+  },
+  {
+   "category": "Oral mucosal epithelial cells",
+   "count": 1,
+   "pct": 9
+  }
+ ]
+}
