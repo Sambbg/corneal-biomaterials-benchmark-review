@@ -21,6 +21,17 @@ Net effect: full-text upgrade work is possible in live sessions by routing throu
 | PUBMED_0690 | 37476050 | Investigated, not upgraded. Genuinely open-access (PMC10354768, also on Wiley/AIChE's *Bioengineering & Translational Medicine*), but both the PMC page (reCAPTCHA) and the Wiley page (returned empty / JS-rendered shell) were unreachable via `web_fetch` this run. Left as `abstract_only`. |
 | PUBMED_0934 | 40446990 | Investigated, not upgraded. WebSearch did not locate this specific paper (very recent, 2025) — no reliable full-text or abstract-confirming source found this run. Left as `abstract_only`; flag for a follow-up search rather than treating this as resolved. |
 
+## Batch 2 — Consensus connector as a supplementary source (2026-07-20)
+
+Tested whether the Consensus academic search connector could substitute for full-text access. Result: `include_full_text_chunks` is Enterprise-only (confirmed via direct API error) — Consensus cannot retrieve paywalled full text either. However, it returned independently-sourced abstracts (Semantic Scholar/PubMed/Scopus backed, not an AI-generated summary) with no rate-limit collisions with `web_fetch`, useful as a faster cross-check tool. Note: Consensus itself has its own rate limit (hit after ~2 rapid parallel calls; resets quickly, unlike the sustained `ebi.ac.uk` block).
+
+Findings this batch:
+- **PUBMED_0081** (30066447, Kim 2018) — Consensus abstract confirms and slightly extends prior extraction (graft-vs-control edema comparison at 3-4 weeks). No mechanical data in the abstract. Not upgraded.
+- **PUBMED_0151** (30989737, Zhao 2019) — Consensus abstract matches existing extraction closely (cell density, corneal thickness at day 181). No mechanical data in the abstract. Not upgraded.
+- **PUBMED_0322** (32805263, An 2020) — Consensus abstract matches existing extraction (>90% transparency vs control). No mechanical data in the abstract. Not upgraded.
+
+For all three, the "mechanical" gap flagged in the gap-analysis table is now cross-verified as a genuine property of the source paper's abstract (no tensile/modulus data reported), not a missed extraction — noted directly in each record's `extraction_notes`. This is useful confirmation but not a tier upgrade, since it doesn't establish what (if anything) the full paywalled text contains beyond the abstract.
+
 ## Recommendation for continuing this task
 
 Given the mixed success rate (1 of 5 attempted this batch), the realistic expectation for the remaining ~18-19 high-priority records is similarly partial: some will be genuinely open access and reachable, many will be paywalled or blocked by reCAPTCHA. This should be treated as an ongoing best-effort pass across future live sessions, not a task that can be driven to 100% completion — and that limitation (some corpus records could not be independently full-text verified despite good-faith attempts) is itself legitimate to state plainly in the manuscript's Methods/Limitations section, consistent with the project's existing transparency approach (`evidence_verification_level` field, `20260720_tier1_quality_control_pass.md`).
