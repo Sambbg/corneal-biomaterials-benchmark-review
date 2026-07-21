@@ -2,168 +2,168 @@
  {
   "citekey": "Chi et al., 2025",
   "layer": "endothelium",
-  "material": "thermosensitive hydroxypropyl chitin/carboxymethyl chitosan (HPCH/CMCS) hydrogel, combined with…",
+  "material": "Thermosensitive HPCH/CMCS hydrogel carrying iPSC-derived corneal endothelial cells",
   "fabrication": "Other/cell culture-based",
   "class": "Natural polymer"
  },
  {
   "citekey": "Wang et al., 2025",
   "layer": "epithelium_limbus",
-  "material": "collagen membrane (custom-made, curved) as the bioprinting substrate/carrier for LESC spheroid…",
+  "material": "Custom curved collagen membrane as bioprinting substrate for LESC spheroid bio-ink",
   "fabrication": "3D bioprinting / DLP / vat photopolymerization",
   "class": "Cell-sheet/scaffold-free"
  },
  {
   "citekey": "Chand et al., 2025",
   "layer": "stroma",
-  "material": "gelatin methacryloyl (GelMA) / oxidized carboxymethyl cellulose (OxiCMC) interpenetrating network…",
+  "material": "GelMA/oxidized carboxymethyl cellulose interpenetrating hydrogel, dual-crosslinked",
   "fabrication": "3D bioprinting / DLP / vat photopolymerization",
   "class": "Hybrid/composite"
  },
  {
   "citekey": "Zhao et al., 2025",
-  "layer": "stroma (with epithel",
-  "material": "humanized corneal stroma-like adhesive patches (HCSPs): polyethylene glycol diacrylate (PEGDA) cast…",
+  "layer": "stroma (with epithelial healing outcome also assessed)",
+  "material": "PEGDA hydrogel skeleton cast in decellularized porcine cornea, integrated with human ECM/GelMA",
   "fabrication": "Solvent casting / molding",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Li et al., 2025",
-  "layer": "multiple_layers (epi",
-  "material": "GelMA/OCS hydrogel: gelatin methacryloyl (GelMA) combined with oxidized chondroitin sulfate (OCS)",
+  "layer": "multiple_layers (epithelium + stroma; large-area full-thickness-scale defect repair)",
+  "material": "GelMA/oxidized chondroitin sulfate (OCS) dual-network hydrogel",
   "fabrication": "Photocurable / chemical crosslinking hydrogel",
   "class": "Natural polymer"
  },
  {
   "citekey": "Tan et al., 2025",
   "layer": "epithelium_limbus",
-  "material": "decellularized human amniotic membrane hydrogel (dAM-gel), produced via a freeze-thaw…",
+  "material": "Decellularized human amniotic membrane hydrogel (dAM-gel), freeze-thaw processed",
   "fabrication": "Decellularization",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Tsai et al., 2025",
   "layer": "endothelium",
-  "material": "Real Architecture For 3D Tissues (RAFT) -- a plastic-compressed collagen 3D matrix",
+  "material": "RAFT plastic-compressed collagen 3D matrix",
   "fabrication": "Other/cell culture-based",
   "class": "Natural polymer"
  },
  {
   "citekey": "Wei et al., 2025",
   "layer": "epithelium_limbus",
-  "material": "aldehyde-modified oxidized guar gum (OGG) crosslinked with carboxymethyl chitosan (CMCS) via…",
+  "material": "Oxidized guar gum/carboxymethyl chitosan hydrogel loaded with MSC exosomes",
   "fabrication": "Photocurable / chemical crosslinking hydrogel",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Hazra et al., 2025",
   "layer": "endothelium",
-  "material": "silk fibroin protein extracted from Antheraea assamensis (muga) silkworms, cast into films with and…",
+  "material": "Muga silk fibroin films, flat vs. micropatterned (hexagon/microgroove) surfaces",
   "fabrication": "Solvent casting / molding",
   "class": "Natural polymer"
  },
  {
   "citekey": "Yin et al., 2025",
-  "layer": "stroma (whole-cornea",
-  "material": "decellularized swim bladder collagen matrix (SBCM) scaffold, elastin-fiber-preserving, dehydrated…",
+  "layer": "stroma (whole-cornea-replacement candidate scaffold)",
+  "material": "Decellularized swim-bladder collagen matrix (SBCM), elastin-preserving",
   "fabrication": "Decellularization",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Tayebi et al., 2025",
   "layer": "endothelium",
-  "material": "scaffold containing chitosan nanoparticles, chitosan, and polycaprolactone (PCL); telomerase…",
+  "material": "Chitosan nanoparticle/chitosan/PCL scaffold with telomerase activator and ROCK inhibitor",
   "fabrication": "Other/cell culture-based",
   "class": "Hybrid/composite"
  },
  {
   "citekey": "Guo et al., 2025",
   "layer": "epithelium_limbus",
-  "material": "porous Gelatin Methacryloyl (GelMA, referred to as 'PG') hydrogel, fabricated with enlarged pore…",
+  "material": "Porous GelMA hydrogel with enlarged pores via phase-separation fabrication",
   "fabrication": "Photocurable / chemical crosslinking hydrogel",
   "class": "Natural polymer"
  },
  {
   "citekey": "Kim et al., 2025",
   "layer": "endothelium",
-  "material": "decellularized porcine corneal extracellular matrix (dECM), compared using two decellularization…",
+  "material": "Decellularized porcine corneal ECM, compared via SDS vs. NaCl decellularization protocols",
   "fabrication": "Decellularization",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Peng et al., 2025",
   "layer": "stroma",
-  "material": "graphene oxide (GO) / niobium carbide MXene (Nb2C) composite nanocomposite scaffold, intended as a…",
+  "material": "Graphene oxide/Nb2C MXene composite scaffold for full artificial-cornea replacement",
   "fabrication": "Other/cell culture-based",
   "class": "Hybrid/composite"
  },
  {
   "citekey": "Chen et al., 2025",
   "layer": "endothelium",
-  "material": "human acellular amniotic membrane (HAAM), coated with fibronectin and chondroitin sulfate (FNC) to…",
+  "material": "Human acellular amniotic membrane coated with fibronectin/chondroitin sulfate",
   "fabrication": "Decellularization",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Aouimeur et al., 2025",
   "layer": "endothelium",
-  "material": "femtosecond-laser-cut lens capsule disc used as bioengineering scaffold; anti-NCAM (lateral…",
+  "material": "Femtosecond-laser-cut lens-capsule disc as endothelial bioengineering scaffold",
   "fabrication": "Femtosecond laser micromachining",
   "class": "Other/not clearly classified"
  },
  {
   "citekey": "Su et al., 2025",
   "layer": "stroma",
-  "material": "decellularized human corneal stromal lenticules (donor-derived, from refractive surgery) loaded…",
+  "material": "Decellularized human stromal lenticules loaded with rapamycin via deep eutectic solvent",
   "fabrication": "Decellularization",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Deng et al., 2025",
-  "layer": "multiple_layers (epi",
-  "material": "GOC hydrogel: gelatin methacryloyl (GelMA), oxidized hyaluronic acid (OHA), and carboxymethyl…",
+  "layer": "multiple_layers (epithelium + stroma; large-area defect repair)",
+  "material": "GelMA/oxidized hyaluronic acid/carboxymethyl chitosan (GOC) hydrogel",
   "fabrication": "Photocurable / chemical crosslinking hydrogel",
   "class": "Hybrid/composite"
  },
  {
   "citekey": "Aghazadeh et al., 2025",
   "layer": "epithelium_limbus",
-  "material": "fibronectin (FN) coating applied at 3, 5, and 8 micrograms/cm2 concentrations; conditioned media…",
+  "material": "Fibronectin coating with limbal mesenchymal/melanocyte-conditioned media",
   "fabrication": "Other/cell culture-based",
   "class": "Other/not clearly classified"
  },
  {
   "citekey": "Lu et al., 2025",
-  "layer": "multiple_layers (epi",
-  "material": "Nap-YpYY-TB500: naphthalene-capped, phosphorylated peptide precursor conjugating TB500 (thymosin…",
+  "layer": "multiple_layers (epithelium regeneration + stromal fibroblast response)",
+  "material": "Self-assembling Nap-YpYY-TB500 peptide hydrogel, ALP-triggered",
   "fabrication": "Self-assembling peptide/molecular hydrogel",
   "class": "Other/not clearly classified"
  },
  {
   "citekey": "Zhong et al., 2026",
   "layer": "endothelium",
-  "material": "polyacrylamide hydrogels fabricated at three defined stiffnesses (25, 50, and 100 kPa) to simulate…",
+  "material": "Polyacrylamide hydrogels at 25/50/100 kPa mimicking Descemet's membrane stiffness",
   "fabrication": "Solvent casting / molding",
   "class": "Other/not clearly classified"
  },
  {
   "citekey": "Bedard et al., 2026",
   "layer": "epithelium_limbus",
-  "material": "decellularized human Descemet membrane (DM) compared against decellularized human amniotic membrane…",
+  "material": "Decellularized human Descemet membrane vs. amniotic membrane as LESC substrates",
   "fabrication": "Decellularization",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Mahmood et al., 2026",
   "layer": "epithelium_limbus",
-  "material": "electrospun Poly Lactide-co-Glycolic Acid (PLGA) scaffold, surface-functionalized with Collagen IV…",
+  "material": "Electrospun PLGA scaffold functionalized with Collagen IV and Laminin-521",
   "fabrication": "Electrospinning",
   "class": "Decellularized/natural ECM"
  },
  {
   "citekey": "Chen et al., 2026",
   "layer": "epithelium_limbus",
-  "material": "polyethylene glycol diacrylate (PEGDA), microstereolithography-printed into annular niche…",
+  "material": "PEGDA microstereolithography-printed annular niche; collagen vitrigel LSCN pattern",
   "fabrication": "3D bioprinting / DLP / vat photopolymerization",
   "class": "Hybrid/composite"
  }
