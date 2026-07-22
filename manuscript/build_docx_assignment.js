@@ -95,6 +95,15 @@ function paragraphsFromMdBlock(blockText) {
     if (line.startsWith("## ")) { flush(); continue; }
     if (line.startsWith("*(") && line.endsWith(")*")) { flush(); paras.push(bodyPara(line)); continue; }
     if (line.startsWith("[FIGURE PLACEHOLDER")) { flush(); paras.push(figurePlaceholder(line)); continue; }
+    if (line.startsWith("[FIGURE IMAGE:")) {
+      flush();
+      const inner = line.slice("[FIGURE IMAGE:".length, -1).trim();
+      const sep = inner.indexOf("|");
+      const filename = inner.slice(0, sep).trim();
+      const caption = inner.slice(sep + 1).trim();
+      paras.push(...figureImageInline(filename, caption));
+      continue;
+    }
     buffer.push(line);
   }
   flush();
@@ -207,6 +216,21 @@ function figureBlock(filename, caption, num) {
       transformation: { width: Math.round(dims.width * scale), height: Math.round(dims.height * scale) },
     })]}),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 300 }, children: [new TextRun({ text: `Figure ${num}. ${caption}`, italics: true, size: 20, font: FONT })] }),
+  ];
+}
+
+// Inline figure image reproduced from a source paper (caption text supplied as-is, already includes "Figure N." and attribution)
+function figureImageInline(filename, captionText) {
+  const buf = fs.readFileSync(path.join(ROOT, "figures", filename));
+  const dims = imageSizeOf(buf);
+  const maxWidth = 560;
+  const scale = Math.min(1, maxWidth / dims.width);
+  return [
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 200 }, children: [new ImageRun({
+      type: "png", data: buf,
+      transformation: { width: Math.round(dims.width * scale), height: Math.round(dims.height * scale) },
+    })]}),
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 300 }, children: [new TextRun({ text: captionText, italics: true, size: 18, font: FONT, color: "555555" })] }),
   ];
 }
 
