@@ -13,6 +13,7 @@ const DATA = path.join(__dirname, "build_data");
 const recentTable = JSON.parse(fs.readFileSync(path.join(DATA, "recent_2025_2026_table.json")));
 const apaRecent = JSON.parse(fs.readFileSync(path.join(DATA, "apa_references_recent.json")));
 const apaExternal = JSON.parse(fs.readFileSync(path.join(DATA, "apa_references_external.json")));
+const apaClinical = JSON.parse(fs.readFileSync(path.join(DATA, "apa_references_clinical_case_studies.json")));
 const md = fs.readFileSync(path.join(__dirname, "assignment_report_content.md"), "utf-8");
 
 const FONT = "Calibri";
@@ -95,7 +96,7 @@ const sections = [
   ["## 3. Biological and Mechanical Properties of Corneal Tissue", "## 4. Recent Developments"],
   ["## 4. Recent Developments (2025–2026): Biomaterials and Cells", "## 5. Scaffold Fabrication Methods"],
   ["## 5. Scaffold Fabrication Methods", "## 6. Case Studies"],
-  ["## 6. Case Studies (2025–2026)", "## 7. Critical Discussion"],
+  ["## 6. Case Studies", "## 7. Critical Discussion"],
   ["## 7. Critical Discussion and Personal Assessment", "## 8. Ethical Issues"],
   ["## 8. Ethical Issues in Corneal Tissue Engineering", "## 9. Conclusion"],
   ["## 9. Conclusion", "## References"],
@@ -106,7 +107,7 @@ const titles = [
   "3. Biological and Mechanical Properties of Corneal Tissue",
   "4. Recent Developments (2025–2026): Biomaterials and Cells",
   "5. Scaffold Fabrication Methods",
-  "6. Case Studies (2025–2026)",
+  "6. Case Studies",
   "7. Critical Discussion and Personal Assessment",
   "8. Ethical Issues in Corneal Tissue Engineering",
   "9. Conclusion",
@@ -139,8 +140,8 @@ const titlePage = [
 const abstractBlock = [
   h1("Abstract"),
   bodyPara("**Objective.** This report reviews the recent development of corneal tissue engineering, covering the anatomy and physiology of the cornea, the biological and mechanical properties each corneal layer must meet, and the biomaterials, cell sources, and scaffold fabrication methods reported in the 2025–2026 literature."),
-  bodyPara("**Methods.** Cornea-focused primary literature was identified via a systematic PubMed search (four layer-specific search blocks, 1,082 unique records after deduplication, screened for relevance to corneal tissue engineering); this report concentrates specifically on the subset of 24 primary studies published in 2025–2026 across the endothelium, stroma, and epithelium/limbus, supplemented by four studies selected for in-depth case analysis."),
-  bodyPara("**Findings.** Decellularized/natural-extracellular-matrix materials remain the dominant biomaterial class in the most recent literature (9/24 studies), followed by natural polymers and hybrid/composite hydrogels (5/24 each); decellularization itself is the single most common fabrication route (6/24), with photocurable hydrogel crosslinking, 3D bioprinting/digital light processing, and solvent casting also well represented. Four case studies — a femtosecond-laser-cut lens-capsule endothelial carrier, a digital-light-processing-bioprinted stromal hydrogel that closely matched native compressive modulus, a head-to-head comparison of decellularized Descemet membrane versus amniotic membrane as limbal stem-cell substrates, and an electrospun, surface-functionalized scaffold supporting induced-pluripotent-stem-cell-derived limbal stem cells — illustrate both the field's genuine progress toward native-tissue-matching performance and its persistent reliance on animal-derived or xenogeneic source materials."),
+  bodyPara("**Methods.** Cornea-focused primary literature was identified via a systematic PubMed search (four layer-specific search blocks, 1,082 unique records after deduplication, screened for relevance to corneal tissue engineering); this report concentrates specifically on the subset of 24 primary studies published in 2025–2026 across the endothelium, stroma, and epithelium/limbus, supplemented by six studies selected for in-depth case analysis."),
+  bodyPara("**Findings.** Decellularized/natural-extracellular-matrix materials remain the dominant biomaterial class in the most recent literature (9/24 studies), followed by natural polymers and hybrid/composite hydrogels (5/24 each); decellularization itself is the single most common fabrication route (6/24), with photocurable hydrogel crosslinking, 3D bioprinting/digital light processing, and solvent casting also well represented. Four preclinical 2025–2026 case studies — a femtosecond-laser-cut lens-capsule endothelial carrier, a digital-light-processing-bioprinted stromal hydrogel that closely matched native compressive modulus, a head-to-head comparison of decellularized Descemet membrane versus amniotic membrane as limbal stem-cell substrates, and an electrospun, surface-functionalized scaffold supporting induced-pluripotent-stem-cell-derived limbal stem cells — illustrate both the field's genuine progress toward native-tissue-matching performance and its persistent reliance on animal-derived or xenogeneic source materials. Two further case studies of published human clinical trials — a phase I–II nanostructured fibrin-agarose implant and a randomized controlled trial of autologous oral mucosal epithelial cell sheets — show that genuine clinical translation in this field, where it exists at all, is currently confined almost entirely to the epithelium/limbus."),
   bodyPara("**Conclusion.** Corneal tissue engineering in 2025–2026 is converging on biomimetic, decellularization-heavy strategies with increasingly precise fabrication control, but mechanical benchmarking against native tissue remains inconsistent, and unresolved ethical questions around donor-tissue sourcing, animal-derived materials, and equitable access to advanced therapies deserve more explicit attention as the field moves toward clinical translation."),
   new Paragraph({ spacing: { after: 300 }, children: [
     new TextRun({ text: "Keywords: ", bold: true, font: FONT }),
@@ -254,11 +255,13 @@ children.push(...paragraphsFromMdBlock(extractSection(md, ...sections[8])));
 // References
 children.push(new Paragraph({ children: [new PageBreak()] }));
 children.push(h1("References"));
-children.push(bodyPara("APA 7th edition style. Section A lists the 24 primary 2025–2026 studies forming this report's core evidence base (Sections 4–6); Section B lists supporting physiological and epidemiological sources used in Sections 1–3 and 8."));
+children.push(bodyPara("APA 7th edition style. Section A lists the 24 primary 2025–2026 studies forming this report's core evidence base (Sections 4–6); Section B lists supporting physiological and epidemiological sources used in Sections 1–3 and 8; Section C lists the two published human clinical trials discussed in Section 6, Case Studies 5–6."));
 children.push(h2("A. Primary 2025–2026 corneal tissue-engineering studies"));
 children.push(...refParas(apaRecent));
 children.push(h2("B. Supporting physiological and epidemiological sources"));
 children.push(...refParas(apaExternal));
+children.push(h2("C. Clinical-trial case-study sources"));
+children.push(...refParas(apaClinical));
 children.push(new Paragraph({ spacing: { before: 200 }, children: [new TextRun({
   text: "Note: one author entry (\"Xxx, S.\") for Aouimeur et al. (2025) is reproduced exactly as returned by the Europe PMC bibliographic database and likely reflects a placeholder or data artifact in the source record rather than an error introduced in this report.",
   italics: true, size: 18, font: FONT, color: "555555",
