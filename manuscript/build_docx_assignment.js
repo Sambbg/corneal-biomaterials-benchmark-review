@@ -45,6 +45,21 @@ function h1(text) { return new Paragraph({ text, heading: HeadingLevel.HEADING_1
 function h2(text) { return new Paragraph({ text, heading: HeadingLevel.HEADING_2, spacing: { before: 260, after: 140 } }); }
 function h3(text) { return new Paragraph({ text, heading: HeadingLevel.HEADING_3, spacing: { before: 200, after: 100 } }); }
 
+function figurePlaceholder(text) {
+  return new Paragraph({
+    shading: { type: ShadingType.CLEAR, fill: "F2F2F2" },
+    border: {
+      top: { style: BorderStyle.SINGLE, size: 6, color: "999999" },
+      bottom: { style: BorderStyle.SINGLE, size: 6, color: "999999" },
+      left: { style: BorderStyle.SINGLE, size: 6, color: "999999" },
+      right: { style: BorderStyle.SINGLE, size: 6, color: "999999" },
+    },
+    spacing: { before: 200, after: 200 },
+    indent: { left: 200, right: 200 },
+    children: [new TextRun({ text, italics: true, color: "555555", font: FONT, size: 20 })],
+  });
+}
+
 function cellText(text, opts = {}) {
   return new TableCell({
     children: [new Paragraph({ children: inlineRuns(String(text)), alignment: opts.center ? AlignmentType.CENTER : AlignmentType.LEFT })],
@@ -79,6 +94,7 @@ function paragraphsFromMdBlock(blockText) {
     if (line.startsWith("### ")) { flush(); paras.push(h3(line.replace(/^### /, ""))); continue; }
     if (line.startsWith("## ")) { flush(); continue; }
     if (line.startsWith("*(") && line.endsWith(")*")) { flush(); paras.push(bodyPara(line)); continue; }
+    if (line.startsWith("[FIGURE PLACEHOLDER")) { flush(); paras.push(figurePlaceholder(line)); continue; }
     buffer.push(line);
   }
   flush();
